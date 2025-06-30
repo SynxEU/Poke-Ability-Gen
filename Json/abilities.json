@@ -1593,13 +1593,13 @@
     "id": 266,
     "name": "As One ATK",
     "gen": 8,
-    "desc": "Boosts Attack after knocking out a Pok\u00e9mon."
+    "desc": "Uses Calyrex Unnerve: Prevents opposing Pokémon from eating held Berries.\n          Extra: Uses Glastrier Chilling Neigh: Boosts Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 267,
     "name": "As One SP. ATK",
     "gen": 8,
-    "desc": "Boosts Special Attack after knocking out a Pok\u00e9mon."
+    "desc": "Uses Calyrex Unnerve: Prevents opposing Pokémon from eating held Berries.\n          Extra: Uses Spectrier Grim Neigh: Boosts Special Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 268,
