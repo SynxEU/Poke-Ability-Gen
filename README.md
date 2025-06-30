@@ -55,7 +55,7 @@ dotnet run
 Or press **Run** in your IDE (Rider/VS).
 
 ## TO:DO
-[ ] Add every pokemon ability to the JSON file ( Maybe find an API to make it lighter? )
+- [ ] Add every pokemon ability to the JSON file ( Maybe find an API to make it lighter? )
 
 ## 🙋 Author
 Made by **SynxEU** \
