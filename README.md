@@ -54,10 +54,10 @@ dotnet run
 Or press **Run** in your IDE (Rider/VS).
 
 ## 👀 How it looks:
-Input:
+#### Input:
 ![image](https://github.com/user-attachments/assets/056b85bd-4980-406c-8d03-4ad2fa4f3f68)
 
-"As One" example:
+#### "As One" + Ability example:
 ![image](https://github.com/user-attachments/assets/07da9953-891d-4a36-95ec-a134c171870e)
 
 
