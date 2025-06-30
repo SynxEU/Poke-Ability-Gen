@@ -56,6 +56,10 @@ Or press **Run** in your IDE (Rider/VS).
 ## TO:DO
 - [x] Add every Pokémon ability (I can find) to the JSON file
 
+## Issues/Missing abilities
+If you have any issues with the program please put it under the [Issuess page](https://github.com/SynxEU/Poke-Ability-Gen/issues) \
+If there is any missing abilities please contact me on discord: **synx_eu**
+
 ## 🙋 Author
 Made by **SynxEU** \
 Created as a personal side project / experiment.
