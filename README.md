@@ -53,10 +53,18 @@ dotnet run
 ```
 Or press **Run** in your IDE (Rider/VS).
 
-## TO:DO
+## 👀 How it looks:
+Input:
+![image](https://github.com/user-attachments/assets/056b85bd-4980-406c-8d03-4ad2fa4f3f68)
+
+"As One" example:
+![image](https://github.com/user-attachments/assets/07da9953-891d-4a36-95ec-a134c171870e)
+
+
+## 📋 TO:DO
 - [x] Add every Pokémon ability (I can find) to the JSON file
 
-## Issues/Missing abilities
+## ⛔ Issues/Missing abilities
 If you have any issues with the program please put it under the [Issuess page](https://github.com/SynxEU/Poke-Ability-Gen/issues) \
 If there is any missing abilities please contact me on discord: **synx_eu**
 
