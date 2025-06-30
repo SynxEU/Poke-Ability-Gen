@@ -33,11 +33,10 @@ The abilities are loaded from a `Json/abilities.json` file. Each ability should 
 
 ```json
 {
-  "id": 1,
-  "name": "Overgrow",
-  "gen": 3,
-  "desc": "Boosts Grass-type moves in a pinch.",
-  "shortDesc": "Grass moves get stronger at low HP."
+   "id": 1,
+   "name": "Stench",
+   "gen": 3,
+   "desc": "Has a 10% chance of making target Pok\u00e9mon flinch with each hit."
 }
 ```
 
@@ -55,7 +54,7 @@ dotnet run
 Or press **Run** in your IDE (Rider/VS).
 
 ## TO:DO
-- [ ] Add every pokemon ability to the JSON file
+- [x] Add every Pokémon ability (I can find) to the JSON file
 
 ## 🙋 Author
 Made by **SynxEU** \

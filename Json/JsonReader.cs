@@ -26,9 +26,6 @@ public static class JsonReader
                 Desc = elem.TryGetProperty("desc", out JsonElement descProp)
                     ? descProp.GetString() ?? string.Empty
                     : string.Empty,
-                ShortDesc = elem.TryGetProperty("shortDesc", out JsonElement shortDescProp)
-                    ? shortDescProp.GetString() ?? string.Empty
-                    : string.Empty
             })
             .ToList();
 

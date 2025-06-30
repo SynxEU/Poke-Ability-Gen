@@ -7,7 +7,7 @@ static class Program
 {
     static void Main()
     {
-        Console.Title = "Ability Generator - Made by SynxEU";
+        Console.Title = "Ability Generator";
         Random rand = new Random();
 
         while (true)
