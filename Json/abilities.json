@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "name": "Stench",
+    "gen": 3,
+    "desc": "May cause the target to flinch.",
+    "shortDesc": "May cause flinching."
+  },
+  {
+    "id": 2,
+    "name": "Drizzle",
+    "gen": 3,
+    "desc": "Summons rain in battle.",
+    "shortDesc": "Summons rain."
+  },
+  {
+    "id": 3,
+    "name": "Speed Boost",
+    "gen": 3,
+    "desc": "Gradually boosts the Speed stat.",
+    "shortDesc": "Boosts Speed every turn."
+  },
+  {
+    "id": 4,
+    "name": "Battle Armor",
+    "gen": 3,
+    "desc": "Protects the Pokémon from critical hits.",
+    "shortDesc": "Prevents critical hits."
+  },
+  {
+    "id": 5,
+    "name": "Sturdy",
+    "gen": 3,
+    "desc": "Prevents being knocked out from full HP by a single hit.",
+    "shortDesc": "Cannot be OHKO'd from full HP."
+  },
+  {
+    "id": 6,
+    "name": "Damp",
+    "gen": 3,
+    "desc": "Prevents self-destruction moves like Explosion.",
+    "shortDesc": "Prevents Explosion and self-destruct."
+  },
+  {
+    "id": 7,
+    "name": "Limber",
+    "gen": 3,
+    "desc": "Prevents paralysis.",
+    "shortDesc": "Prevents paralysis."
+  },
+  {
+    "id": 8,
+    "name": "Sand Veil",
+    "gen": 3,
+    "desc": "Raises evasion in a sandstorm.",
+    "shortDesc": "Boosts evasion in sandstorm."
+  },
+  {
+    "id": 9,
+    "name": "Static",
+    "gen": 3,
+    "desc": "May cause paralysis on contact.",
+    "shortDesc": "May paralyze on contact."
+  },
+  {
+    "id": 10,
+    "name": "Volt Absorb",
+    "gen": 3,
+    "desc": "Restores HP if hit by Electric moves instead of taking damage.",
+    "shortDesc": "Restores HP if hit by Electric moves."
+  },
+  {
+    "id": 11,
+    "name": "Water Absorb",
+    "gen": 3,
+    "desc": "Restores HP if hit by Water moves instead of taking damage.",
+    "shortDesc": "Restores HP if hit by Water moves."
+  },
+  {
+    "id": 12,
+    "name": "Oblivious",
+    "gen": 3,
+    "desc": "Prevents infatuation and taunts.",
+    "shortDesc": "Prevents attraction and taunts."
+  },
+  {
+    "id": 13,
+    "name": "Cloud Nine",
+    "gen": 3,
+    "desc": "Negates weather effects.",
+    "shortDesc": "Negates weather."
+  },
+  {
+    "id": 14,
+    "name": "Compound Eyes",
+    "gen": 3,
+    "desc": "Raises accuracy.",
+    "shortDesc": "Raises accuracy."
+  },
+  {
+    "id": 15,
+    "name": "Insomnia",
+    "gen": 3,
+    "desc": "Prevents sleep.",
+    "shortDesc": "Prevents sleep."
+  },
+  {
+    "id": 16,
+    "name": "Color Change",
+    "gen": 3,
+    "desc": "Changes type to the type of the last move that hit the Pokémon.",
+    "shortDesc": "Changes type to last move's type."
+  },
+  {
+    "id": 17,
+    "name": "Immunity",
+    "gen": 3,
+    "desc": "Prevents poisoning.",
+    "shortDesc": "Prevents poisoning."
+  },
+  {
+    "id": 18,
+    "name": "Flash Fire",
+    "gen": 3,
+    "desc": "Powers up Fire moves if hit by one.",
+    "shortDesc": "Boosts Fire moves if hit by Fire."
+  },
+  {
+    "id": 19,
+    "name": "Shield Dust",
+    "gen": 3,
+    "desc": "Blocks secondary move effects.",
+    "shortDesc": "Blocks secondary effects."
+  },
+  {
+    "id": 20,
+    "name": "Own Tempo",
+    "gen": 3,
+    "desc": "Prevents confusion.",
+    "shortDesc": "Prevents confusion."
+  },
+  {
+    "id": 21,
+    "name": "Suction Cups",
+    "gen": 3,
+    "desc": "Prevents being forced out of battle.",
+    "shortDesc": "Prevents forced switching."
+  },
+  {
+    "id": 22,
+    "name": "Intimidate",
+    "gen": 3,
+    "desc": "Lowers the foe's Attack stat.",
+    "shortDesc": "Lowers opponent's Attack."
+  },
+  {
+    "id": 23,
+    "name": "Shadow Tag",
+    "gen": 3,
+    "desc": "Prevents foes from escaping.",
+    "shortDesc": "Prevents opponents from fleeing."
+  },
+  {
+    "id": 24,
+    "name": "Rough Skin",
+    "gen": 3,
+    "desc": "Damages attackers on contact.",
+    "shortDesc": "Damages on contact."
+  },
+  {
+    "id": 25,
+    "name": "Wonder Guard",
+    "gen": 3,
+    "desc": "Only supereffective moves cause damage.",
+    "shortDesc": "Only supereffective moves damage."
+  },
+  {
+    "id": 26,
+    "name": "Levitate",
+    "gen": 3,
+    "desc": "Gives immunity to Ground moves.",
+    "shortDesc": "Immune to Ground moves."
+  },
+  {
+    "id": 27,
+    "name": "Effect Spore",
+    "gen": 3,
+    "desc": "May cause status on contact.",
+    "shortDesc": "May cause status on contact."
+  },
+  {
+    "id": 28,
+    "name": "Synchronize",
+    "gen": 3,
+    "desc": "Passes status conditions to the foe.",
+    "shortDesc": "Passes status conditions."
+  },
+  {
+    "id": 29,
+    "name": "Clear Body",
+    "gen": 3,
+    "desc": "Prevents stat reduction.",
+    "shortDesc": "Prevents stat drops."
+  },
+  {
+    "id": 30,
+    "name": "Natural Cure",
+    "gen": 3,
+    "desc": "Heals status conditions when switched out.",
+    "shortDesc": "Heals status on switch."
+  },
+  {
+    "id": 31,
+    "name": "Lightning Rod",
+    "gen": 3,
+    "desc": "Draws in Electric moves to raise Special Attack.",
+    "shortDesc": "Draws Electric moves, boosts Sp. Atk."
+  },
+  {
+    "id": 32,
+    "name": "Serene Grace",
+    "gen": 3,
+    "desc": "Boosts the chance of secondary effects.",
+    "shortDesc": "Boosts secondary effect chance."
+  },
+  {
+    "id": 33,
+    "name": "Swift Swim",
+    "gen": 3,
+    "desc": "Doubles Speed in rain.",
+    "shortDesc": "Speed doubles in rain."
+  },
+  {
+    "id": 34,
+    "name": "Chlorophyll",
+    "gen": 3,
+    "desc": "Doubles Speed in sunshine.",
+    "shortDesc": "Speed doubles in sun."
+  },
+  {
+    "id": 35,
+    "name": "Illuminate",
+    "gen": 3,
+    "desc": "Raises encounter rate.",
+    "shortDesc": "Raises wild encounter rate."
+  },
+  {
+    "id": 36,
+    "name": "Trace",
+    "gen": 3,
+    "desc": "Copies an opponent's ability.",
+    "shortDesc": "Copies opponent's ability."
+  },
+  {
+    "id": 37,
+    "name": "Huge Power",
+    "gen": 3,
+    "desc": "Doubles Attack stat.",
+    "shortDesc": "Attack stat is doubled."
+  },
+  {
+    "id": 38,
+    "name": "Poison Point",
+    "gen": 3,
+    "desc": "May poison on contact.",
+    "shortDesc": "May poison on contact."
+  },
+  {
+    "id": 39,
+    "name": "Inner Focus",
+    "gen": 3,
+    "desc": "Prevents flinching.",
+    "shortDesc": "Prevents flinching."
+  },
+  {
+    "id": 40,
+    "name": "Magma Armor",
+    "gen": 3,
+    "desc": "Prevents freezing.",
+    "shortDesc": "Prevents freezing."
+  },
+  {
+    "id": 41,
+    "name": "Water Veil",
+    "gen": 3,
+    "desc": "Prevents burn.",
+    "shortDesc": "Prevents burn."
+  },
+  {
+    "id": 42,
+    "name": "Magnet Pull",
+    "gen": 3,
+    "desc": "Prevents Steel-type Pokémon from escaping.",
+    "shortDesc": "Prevents Steel Pokémon from escaping."
+  },
+  {
+    "id": 43,
+    "name": "Soundproof",
+    "gen": 3,
+    "desc": "Immune to sound-based moves.",
+    "shortDesc": "Blocks sound moves."
+  },
+  {
+    "id": 44,
+    "name": "Rain Dish",
+    "gen": 3,
+    "desc": "Restores HP in rain.",
+    "shortDesc": "Heals in rain."
+  },
+  {
+    "id": 45,
+    "name": "Sand Stream",
+    "gen": 3,
+    "desc": "Summons sandstorm in battle.",
+    "shortDesc": "Summons sandstorm."
+  },
+  {
+    "id": 46,
+    "name": "Pressure",
+    "gen": 3,
+    "desc": "Increases foe's PP usage.",
+    "shortDesc": "Increases opponent's PP usage."
+  },
+  {
+    "id": 47,
+    "name": "Thick Fat",
+    "gen": 3,
+    "desc": "Halves damage from Fire and Ice moves.",
+    "shortDesc": "Halves Fire/Ice damage."
+  },
+  {
+    "id": 48,
+    "name": "Early Bird",
+    "gen": 3,
+    "desc": "Heals sleep status twice as fast.",
+    "shortDesc": "Sleep ends faster."
+  },
+  {
+    "id": 49,
+    "name": "Flame Body",
+    "gen": 3,
+    "desc": "May burn on contact.",
+    "shortDesc": "May burn on contact."
+  },
+  {
+    "id": 50,
+    "name": "Run Away",
+    "gen": 3,
+    "desc": "Enables fleeing from wild battles.",
+    "shortDesc": "Enables escape from wild battles."
+  },
+    {
+      "id": 51,
+      "name": "Keen Eye",
+      "gen": 3,
+      "desc": "Prevents accuracy loss.",
+      "shortDesc": "Prevents accuracy drops."
+    },
+    {
+      "id": 52,
+      "name": "Hyper Cutter",
+      "gen": 3,
+      "desc": "Prevents Attack stat reduction.",
+      "shortDesc": "Prevents Attack drops."
+    },
+    {
+      "id": 53,
+      "name": "Pickup",
+      "gen": 3,
+      "desc": "May pick up items after battle.",
+      "shortDesc": "May pick up items."
+    },
+    {
+      "id": 54,
+      "name": "Truant",
+      "gen": 3,
+      "desc": "Only moves every other turn.",
+      "shortDesc": "Moves every second turn."
+    },
+    {
+      "id": 55,
+      "name": "Hustle",
+      "gen": 3,
+      "desc": "Boosts Attack but lowers accuracy.",
+      "shortDesc": "Attack up, accuracy down."
+    },
+    {
+      "id": 56,
+      "name": "Cute Charm",
+      "gen": 3,
+      "desc": "May infatuate attackers on contact.",
+      "shortDesc": "May cause infatuation."
+    },
+    {
+      "id": 57,
+      "name": "Plus",
+      "gen": 3,
+      "desc": "Boosts Special Attack when paired with Minus ability Pokémon.",
+      "shortDesc": "Boosts Sp. Atk near Minus."
+    },
+    {
+      "id": 58,
+      "name": "Minus",
+      "gen": 3,
+      "desc": "Boosts Special Attack when paired with Plus ability Pokémon.",
+      "shortDesc": "Boosts Sp. Atk near Plus."
+    },
+    {
+      "id": 59,
+      "name": "Forecast",
+      "gen": 3,
+      "desc": "Changes form based on weather.",
+      "shortDesc": "Form changes with weather."
+    },
+    {
+      "id": 60,
+      "name": "Sticky Hold",
+      "gen": 3,
+      "desc": "Prevents item removal by others.",
+      "shortDesc": "Prevents item theft."
+    },
+    {
+      "id": 61,
+      "name": "Shed Skin",
+      "gen": 3,
+      "desc": "May heal status conditions.",
+      "shortDesc": "May heal status."
+    },
+    {
+      "id": 62,
+      "name": "Guts",
+      "gen": 3,
+      "desc": "Boosts Attack if affected by a status condition.",
+      "shortDesc": "Attack up when statused."
+    },
+    {
+      "id": 63,
+      "name": "Marvel Scale",
+      "gen": 3,
+      "desc": "Boosts Defense when affected by a status condition.",
+      "shortDesc": "Defense up when statused."
+    },
+    {
+      "id": 64,
+      "name": "Liquid Ooze",
+      "gen": 3,
+      "desc": "Damages attackers draining HP.",
+      "shortDesc": "Damages attackers draining HP."
+    },
+    {
+      "id": 65,
+      "name": "Overgrow",
+      "gen": 3,
+      "desc": "Boosts Grass moves at low HP.",
+      "shortDesc": "Boosts Grass moves at low HP."
+    },
+    {
+      "id": 66,
+      "name": "Blaze",
+      "gen": 3,
+      "desc": "Boosts Fire moves at low HP.",
+      "shortDesc": "Boosts Fire moves at low HP."
+    },
+    {
+      "id": 67,
+      "name": "Torrent",
+      "gen": 3,
+      "desc": "Boosts Water moves at low HP.",
+      "shortDesc": "Boosts Water moves at low HP."
+    },
+    {
+      "id": 68,
+      "name": "Swarm",
+      "gen": 3,
+      "desc": "Boosts Bug moves at low HP.",
+      "shortDesc": "Boosts Bug moves at low HP."
+    },
+    {
+      "id": 69,
+      "name": "Rock Head",
+      "gen": 3,
+      "desc": "Prevents recoil damage.",
+      "shortDesc": "Prevents recoil damage."
+    },
+    {
+      "id": 70,
+      "name": "Drought",
+      "gen": 3,
+      "desc": "Summons sunlight in battle.",
+      "shortDesc": "Summons sunlight."
+    },
+    {
+      "id": 71,
+      "name": "Arena Trap",
+      "gen": 3,
+      "desc": "Prevents foes from escaping.",
+      "shortDesc": "Prevents fleeing."
+    },
+    {
+      "id": 72,
+      "name": "Vital Spirit",
+      "gen": 3,
+      "desc": "Prevents sleep.",
+      "shortDesc": "Prevents sleep."
+    },
+    {
+      "id": 73,
+      "name": "White Smoke",
+      "gen": 3,
+      "desc": "Prevents stat reduction.",
+      "shortDesc": "Prevents stat drops."
+    },
+    {
+      "id": 74,
+      "name": "Pure Power",
+      "gen": 3,
+      "desc": "Doubles Attack stat.",
+      "shortDesc": "Attack stat doubled."
+    },
+    {
+      "id": 75,
+      "name": "Shell Armor",
+      "gen": 3,
+      "desc": "Blocks critical hits.",
+      "shortDesc": "Blocks critical hits."
+    },
+    {
+      "id": 76,
+      "name": "Air Lock",
+      "gen": 3,
+      "desc": "Negates weather effects.",
+      "shortDesc": "Negates weather."
+    },
+    {
+      "id": 77,
+      "name": "Tangled Feet",
+      "gen": 3,
+      "desc": "Raises evasion if confused.",
+      "shortDesc": "Evasion up if confused."
+    },
+    {
+      "id": 78,
+      "name": "Motor Drive",
+      "gen": 3,
+      "desc": "Boosts Speed if hit by Electric move.",
+      "shortDesc": "Speed up if hit by Electric."
+    },
+    {
+      "id": 79,
+      "name": "Rivalry",
+      "gen": 3,
+      "desc": "Boosts Attack against same gender.",
+      "shortDesc": "Attack up vs same gender."
+    },
+    {
+      "id": 80,
+      "name": "Steadfast",
+      "gen": 3,
+      "desc": "Boosts Speed when flinched.",
+      "shortDesc": "Speed up if flinched."
+    },
+    {
+      "id": 81,
+      "name": "Snow Cloak",
+      "gen": 3,
+      "desc": "Raises evasion in hail.",
+      "shortDesc": "Evasion up in hail."
+    },
+    {
+      "id": 82,
+      "name": "Gluttony",
+      "gen": 3,
+      "desc": "Eats Berry earlier than usual.",
+      "shortDesc": "Eats Berry early."
+    },
+    {
+      "id": 83,
+      "name": "Anger Point",
+      "gen": 3,
+      "desc": "Maxes Attack if hit by critical hit.",
+      "shortDesc": "Max Attack on critical hit."
+    },
+    {
+      "id": 84,
+      "name": "Unburden",
+      "gen": 3,
+      "desc": "Doubles Speed if item lost.",
+      "shortDesc": "Speed doubles if item lost."
+    },
+    {
+      "id": 85,
+      "name": "Heatproof",
+      "gen": 4,
+      "desc": "Halves Fire damage.",
+      "shortDesc": "Fire damage halved."
+    },
+    {
+      "id": 86,
+      "name": "Simple",
+      "gen": 4,
+      "desc": "Doubles stat changes.",
+      "shortDesc": "Stat changes doubled."
+    },
+    {
+      "id": 87,
+      "name": "Dry Skin",
+      "gen": 4,
+      "desc": "Restores HP in rain, loses HP in sun.",
+      "shortDesc": "Heals in rain, hurts in sun."
+    },
+    {
+      "id": 88,
+      "name": "Download",
+      "gen": 4,
+      "desc": "Boosts Attack or Special Attack based on foe's weaker defensive stat.",
+      "shortDesc": "Boosts attack based on foe."
+    },
+    {
+      "id": 89,
+      "name": "Iron Fist",
+      "gen": 4,
+      "desc": "Boosts punching moves.",
+      "shortDesc": "Punch moves boosted."
+    },
+    {
+      "id": 90,
+      "name": "Poison Heal",
+      "gen": 4,
+      "desc": "Heals HP when poisoned instead of taking damage.",
+      "shortDesc": "Heals when poisoned."
+    },
+    {
+      "id": 91,
+      "name": "Magic Guard",
+      "gen": 4,
+      "desc": "Prevents indirect damage.",
+      "shortDesc": "Blocks indirect damage."
+    },
+    {
+      "id": 92,
+      "name": "Light Metal",
+      "gen": 4,
+      "desc": "Halves weight.",
+      "shortDesc": "Weight halved."
+    },
+    {
+      "id": 93,
+      "name": "Heavy Metal",
+      "gen": 4,
+      "desc": "Doubles weight.",
+      "shortDesc": "Weight doubled."
+    },
+    {
+      "id": 94,
+      "name": "Volt Switch",
+      "gen": 4,
+      "desc": "Allows switching after attacking with Electric moves.",
+      "shortDesc": "Switches after Electric attack."
+    },
+    {
+      "id": 95,
+      "name": "Water Bubble",
+      "gen": 4,
+      "desc": "Halves Fire damage and boosts Water moves.",
+      "shortDesc": "Fire damage halved, Water up."
+    },
+    {
+      "id": 96,
+      "name": "Magnet Rise",
+      "gen": 4,
+      "desc": "Gives immunity to Ground moves for 5 turns.",
+      "shortDesc": "Immune to Ground for 5 turns."
+    },
+    {
+      "id": 97,
+      "name": "Flame Body",
+      "gen": 3,
+      "desc": "May burn on contact.",
+      "shortDesc": "May burn on contact."
+    },
+    {
+      "id": 98,
+      "name": "Minus",
+      "gen": 3,
+      "desc": "Boosts Sp. Atk near Plus ability Pokémon.",
+      "shortDesc": "Boosts Sp. Atk near Plus."
+    },
+    {
+      "id": 99,
+      "name": "Poison Touch",
+      "gen": 5,
+      "desc": "May poison on contact moves.",
+      "shortDesc": "May poison on contact."
+    },
+  {
+    "id": 100,
+    "name": "Reckless",
+    "gen": 5,
+    "desc": "Boosts moves with recoil damage.",
+    "shortDesc": "Boosts recoil moves."
+  },
+  {
+    "id": 101,
+    "name": "Multiscale",
+    "gen": 5,
+    "desc": "Reduces damage when HP is full.",
+    "shortDesc": "Takes less damage at full HP."
+  },
+    {
+      "id": 102,
+      "name": "Triage",
+      "gen": 5,
+      "desc": "Gives priority to healing moves.",
+      "shortDesc": "Healing moves gain priority."
+    },
+    {
+      "id": 103,
+      "name": "Soul-Heart",
+      "gen": 6,
+      "desc": "Boosts Special Attack when another Pokémon faints.",
+      "shortDesc": "Sp. Atk up on faint."
+    },
+    {
+      "id": 104,
+      "name": "Tangling Hair",
+      "gen": 6,
+      "desc": "Lowers opponent's Speed when hit by contact move.",
+      "shortDesc": "Lowers opponent Speed on contact."
+    },
+    {
+      "id": 105,
+      "name": "Receiver",
+      "gen": 7,
+      "desc": "Copies an ally's Ability upon switching in.",
+      "shortDesc": "Copies ally's Ability."
+    },
+    {
+      "id": 106,
+      "name": "Power of Alchemy",
+      "gen": 7,
+      "desc": "Copies ally's Ability upon ally fainting.",
+      "shortDesc": "Copies ally Ability on faint."
+    },
+    {
+      "id": 107,
+      "name": "Beast Boost",
+      "gen": 7,
+      "desc": "Boosts highest stat on fainting an opponent.",
+      "shortDesc": "Boosts highest stat on faint."
+    },
+    {
+      "id": 108,
+      "name": "Corrosion",
+      "gen": 7,
+      "desc": "Poisons Steel- and Poison-type Pokémon.",
+      "shortDesc": "Poisons Steel and Poison types."
+    },
+    {
+      "id": 109,
+      "name": "Good as Gold",
+      "gen": 7,
+      "desc": "Grants immunity to status conditions.",
+      "shortDesc": "Immune to status conditions."
+    },
+    {
+      "id": 110,
+      "name": "Libero",
+      "gen": 7,
+      "desc": "Changes type to the move used.",
+      "shortDesc": "Type changes to move type."
+    },
+    {
+      "id": 111,
+      "name": "Bulletproof",
+      "gen": 7,
+      "desc": "Protects from some ball and bomb moves.",
+      "shortDesc": "Blocks ball and bomb moves."
+    },
+    {
+      "id": 112,
+      "name": "Competitive",
+      "gen": 5,
+      "desc": "Boosts Special Attack when a stat is lowered.",
+      "shortDesc": "Sp. Atk up when stats drop."
+    },
+    {
+      "id": 113,
+      "name": "Defiant",
+      "gen": 5,
+      "desc": "Boosts Attack when a stat is lowered.",
+      "shortDesc": "Attack up when stats drop."
+    },
+    {
+      "id": 114,
+      "name": "Weak Armor",
+      "gen": 5,
+      "desc": "Raises Speed but lowers Defense when hit by a physical move.",
+      "shortDesc": "Speed up and Defense down on hit."
+    },
+    {
+      "id": 115,
+      "name": "Unnerve",
+      "gen": 5,
+      "desc": "Prevents opposing Pokémon from using their held Berries.",
+      "shortDesc": "Prevents opponents from using Berries."
+    },
+    {
+      "id": 116,
+      "name": "Defeatist",
+      "gen": 5,
+      "desc": "Halves Attack and Special Attack when HP is below half.",
+      "shortDesc": "Attack and Sp. Atk halved at <50% HP."
+    },
+    {
+      "id": 117,
+      "name": "Cursed Body",
+      "gen": 6,
+      "desc": "May disable moves that hit the Pokémon.",
+      "shortDesc": "May disable move that hits it."
+    },
+    {
+      "id": 118,
+      "name": "Healer",
+      "gen": 6,
+      "desc": "May heal an ally's status condition.",
+      "shortDesc": "May heal ally status."
+    },
+    {
+      "id": 119,
+      "name": "Friend Guard",
+      "gen": 6,
+      "desc": "Reduces damage allies take.",
+      "shortDesc": "Reduces ally damage."
+    },
+    {
+      "id": 120,
+      "name": "Persistent",
+      "gen": 6,
+      "desc": "Prevents other Pokémon from making it flinch.",
+      "shortDesc": "Prevents flinching."
+    },
+    {
+      "id": 121,
+      "name": "Quick Draw",
+      "gen": 6,
+      "desc": "Gives priority to the first move used each turn.",
+      "shortDesc": "First move each turn has priority."
+    },
+    {
+      "id": 122,
+      "name": "Magic Bounce",
+      "gen": 6,
+      "desc": "Reflects status moves.",
+      "shortDesc": "Reflects status moves."
+    },
+    {
+      "id": 123,
+      "name": "Sap Sipper",
+      "gen": 5,
+      "desc": "Boosts Attack when hit by a Grass move, immunity to Grass moves.",
+      "shortDesc": "Attack up and immunity to Grass."
+    },
+    {
+      "id": 124,
+      "name": "Prankster",
+      "gen": 5,
+      "desc": "Gives priority to status moves.",
+      "shortDesc": "Status moves gain priority."
+    },
+    {
+      "id": 125,
+      "name": "Sand Force",
+      "gen": 5,
+      "desc": "Boosts Rock, Ground, and Steel moves in a sandstorm.",
+      "shortDesc": "Boosts Rock/Ground/Steel in sand."
+    },
+    {
+      "id": 126,
+      "name": "Sand Rush",
+      "gen": 5,
+      "desc": "Doubles Speed in a sandstorm.",
+      "shortDesc": "Speed doubles in sandstorm."
+    },
+    {
+      "id": 127,
+      "name": "Sand Stream",
+      "gen": 3,
+      "desc": "Summons a sandstorm in battle.",
+      "shortDesc": "Summons sandstorm."
+    },
+    {
+      "id": 128,
+      "name": "Sand Veil",
+      "gen": 3,
+      "desc": "Raises evasion in a sandstorm.",
+      "shortDesc": "Evasion up in sandstorm."
+    },
+    {
+      "id": 129,
+      "name": "Sap Sipper",
+      "gen": 5,
+      "desc": "Boosts Attack if hit by Grass moves; Grass immunity.",
+      "shortDesc": "Attack up and immune to Grass."
+    },
+    {
+      "id": 130,
+      "name": "Scrappy",
+      "gen": 4,
+      "desc": "Allows Normal and Fighting moves to hit Ghost types.",
+      "shortDesc": "Hits Ghost types with Normal/Fighting."
+    },
+    {
+      "id": 131,
+      "name": "Serene Grace",
+      "gen": 3,
+      "desc": "Doubles chances of secondary effects occurring.",
+      "shortDesc": "Increases secondary effect chance."
+    },
+    {
+      "id": 132,
+      "name": "Shadow Tag",
+      "gen": 3,
+      "desc": "Prevents opposing Pokémon from escaping.",
+      "shortDesc": "Prevents fleeing."
+    },
+    {
+      "id": 133,
+      "name": "Sheer Force",
+      "gen": 5,
+      "desc": "Removes secondary effects to boost move power.",
+      "shortDesc": "Boosts moves without secondary effects."
+    },
+    {
+      "id": 134,
+      "name": "Shell Armor",
+      "gen": 3,
+      "desc": "Blocks critical hits.",
+      "shortDesc": "Blocks critical hits."
+    },
+    {
+      "id": 135,
+      "name": "Shield Dust",
+      "gen": 3,
+      "desc": "Blocks secondary effects of moves.",
+      "shortDesc": "Blocks secondary effects."
+    },
+    {
+      "id": 136,
+      "name": "Simple",
+      "gen": 4,
+      "desc": "Doubles the effect of stat changes.",
+      "shortDesc": "Stat changes doubled."
+    },
+    {
+      "id": 137,
+      "name": "Skill Link",
+      "gen": 5,
+      "desc": "Increases multi-strike moves to always hit maximum times.",
+      "shortDesc": "Multi-hit moves always hit max times."
+    },
+    {
+      "id": 138,
+      "name": "Slow Start",
+      "gen": 5,
+      "desc": "Halves Attack and Speed for first 5 turns.",
+      "shortDesc": "Attack and Speed halved for 5 turns."
+    },
+    {
+      "id": 139,
+      "name": "Slush Rush",
+      "gen": 7,
+      "desc": "Doubles Speed during hail.",
+      "shortDesc": "Speed doubles in hail."
+    },
+    {
+      "id": 140,
+      "name": "Sniper",
+      "gen": 4,
+      "desc": "Boosts critical hit damage.",
+      "shortDesc": "Boosts critical hit damage."
+    },
+    {
+      "id": 141,
+      "name": "Snow Cloak",
+      "gen": 3,
+      "desc": "Raises evasion in hail.",
+      "shortDesc": "Evasion up in hail."
+    },
+    {
+      "id": 142,
+      "name": "Snow Warning",
+      "gen": 5,
+      "desc": "Summons hail in battle.",
+      "shortDesc": "Summons hail."
+    },
+    {
+      "id": 143,
+      "name": "Solar Power",
+      "gen": 5,
+      "desc": "Boosts Special Attack in sun, loses HP each turn.",
+      "shortDesc": "Sp. Atk up in sun, HP loss each turn."
+    },
+    {
+      "id": 144,
+      "name": "Solid Rock",
+      "gen": 4,
+      "desc": "Reduces damage from super effective moves.",
+      "shortDesc": "Reduces damage from super effective moves."
+    },
+    {
+      "id": 145,
+      "name": "Soundproof",
+      "gen": 3,
+      "desc": "Immunity to sound-based moves.",
+      "shortDesc": "Immune to sound moves."
+    },
+    {
+      "id": 146,
+      "name": "Speed Boost",
+      "gen": 4,
+      "desc": "Increases Speed every turn.",
+      "shortDesc": "Speed increases each turn."
+    },
+    {
+      "id": 147,
+      "name": "Stakeout",
+      "gen": 7,
+      "desc": "Doubles damage against newly switched-in opponents.",
+      "shortDesc": "Doubles damage to switched-in foes."
+    },
+    {
+      "id": 148,
+      "name": "Stamina",
+      "gen": 7,
+      "desc": "Boosts Defense when hit by an attack.",
+      "shortDesc": "Defense up when hit."
+    },
+    {
+      "id": 149,
+      "name": "Steelworker",
+      "gen": 7,
+      "desc": "Boosts Steel-type moves.",
+      "shortDesc": "Steel moves boosted."
+    },
+  {
+    "id": 150,
+    "name": "Steely Spirit",
+    "gen": 8,
+    "desc": "Boosts Steel-type moves for allies.",
+    "shortDesc": "Boosts Steel moves for allies."
+  }
+]
