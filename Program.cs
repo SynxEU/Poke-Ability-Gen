@@ -12,9 +12,8 @@ static class Program
         while (true)
         {
             int rollCount = Prompt.PromptRollCount();
-            HashSet<string> bannedList = Prompt.PromptBannedAbilities();
 
-            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(bannedList);
+            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(Prompt.PromptBannedAbilities());
 
             if (availableAbilities.Count == 0)
             {

@@ -10,17 +10,13 @@ public static class AbilityGenerator
             .ToList();
 
     public static List<AbilityEntity> PickRandomAbilities(List<AbilityEntity> abilities, int count, Random rand)
-    {
-        List<AbilityEntity> uniqueByName = abilities
+        => abilities
             .GroupBy(a => a.Name.ToLower())
             .Select(g => g.First())
-            .ToList();
-
-        return uniqueByName
             .OrderBy(_ => rand.Next())
             .Take(count)
             .ToList();
-    }
+
 
     public static void PlayRollingAnimation(List<AbilityEntity> pool, int count, Random rand)
     {
