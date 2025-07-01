@@ -34,7 +34,7 @@ public class Prompt
 
         for (int i = 0; i < chosen.Count; i++)
         {
-            AbilityGenerator.PlayRollingAnimation(pool, new Random());
+            AbilityGenerator.PlayRollingAnimation(pool, i, new Random());
 
             AbilityEntity ability = chosen[i];
             Console.WriteLine($"Ability #{i + 1}: {ability.Name}");

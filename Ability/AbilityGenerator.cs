@@ -22,19 +22,24 @@ public static class AbilityGenerator
             .ToList();
     }
 
-    public static void PlayRollingAnimation(List<AbilityEntity> pool, Random rand)
+    public static void PlayRollingAnimation(List<AbilityEntity> pool, int count, Random rand)
     {
-        for (int j = 0; j < 10; j++)
-        {
-            string text = $"Rolling: {pool[rand.Next(pool.Count)].Name}";
+        int currentLine = Console.CursorTop;
 
-            Console.SetCursorPosition(0, Console.CursorTop);
-            Console.Write(text.PadRight(Console.WindowWidth - 1));
-            Thread.Sleep(50);
+        for (int j = 11; j > 1; j--)
+        {
+            string name = pool[rand.Next(pool.Count)].Name;
+            string text = $"Ability #{count+1}: {name}".PadRight(Console.WindowWidth - 1);
+
+            Console.SetCursorPosition(0, currentLine);
+            Console.Write(text);
+
+            Thread.Sleep(1000 / j);
         }
 
-        Console.SetCursorPosition(0, Console.CursorTop);
+        Console.SetCursorPosition(0, currentLine);
         Console.Write(new string(' ', Console.WindowWidth - 1));
-        Console.SetCursorPosition(0, Console.CursorTop);
+        Console.SetCursorPosition(0, currentLine);
     }
+
 }
