@@ -15,7 +15,7 @@ public static class JsonReader
         string rawJson = File.ReadAllText(filePath);
         using JsonDocument doc = JsonDocument.Parse(rawJson);
 
-        var abilities = doc.RootElement.EnumerateArray()
+        List<AbilityEntity> abilities = doc.RootElement.EnumerateArray()
             .Select(elem => new AbilityEntity
             {
                 Id = elem.GetProperty("id").GetInt32(),
