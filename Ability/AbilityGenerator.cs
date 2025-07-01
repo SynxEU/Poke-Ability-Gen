@@ -11,7 +11,7 @@ public static class AbilityGenerator
 
     public static List<AbilityEntity> PickRandomAbilities(List<AbilityEntity> abilities, int count, Random rand)
     {
-        var uniqueByName = abilities
+        List<AbilityEntity> uniqueByName = abilities
             .GroupBy(a => a.Name.ToLower())
             .Select(g => g.First())
             .ToList();

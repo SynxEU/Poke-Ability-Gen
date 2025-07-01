@@ -8,7 +8,6 @@ static class Program
     static void Main()
     {
         Console.Title = "Ability Generator";
-        Random rand = new Random();
 
         while (true)
         {
@@ -23,13 +22,12 @@ static class Program
 
             Console.WriteLine("Enter banned abilities separated by commas (or leave empty):");
             string bannedInput = Console.ReadLine() ?? "";
-            var bannedList = bannedInput
+            HashSet<string> bannedList = bannedInput
                 .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
                 .Select(name => name.ToLower())
                 .ToHashSet();
-
-            var allAbilities = JsonReader.LoadAbilities("Json/abilities.json");
-            var availableAbilities = AbilityGenerator.GetFilteredAbilities(allAbilities, bannedList);
+            
+            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(JsonReader.LoadAbilities("Json/abilities.json"), bannedList);
 
             if (availableAbilities.Count == 0)
             {
@@ -39,7 +37,7 @@ static class Program
                 continue;
             }
 
-            var chosenAbilities = AbilityGenerator.PickRandomAbilities(availableAbilities, rollCount, rand);
+            List<AbilityEntity> chosenAbilities = AbilityGenerator.PickRandomAbilities(availableAbilities, rollCount, new Random());
 
             if (rollCount > chosenAbilities.Count)
             {
@@ -52,9 +50,9 @@ static class Program
             Console.Clear();
             for (int i = 0; i < chosenAbilities.Count; i++)
             {
-                AbilityGenerator.PlayRollingAnimation(availableAbilities, rand);
+                AbilityGenerator.PlayRollingAnimation(availableAbilities, new Random());
 
-                var ability = chosenAbilities[i];
+                AbilityEntity ability = chosenAbilities[i];
                 Console.WriteLine($"Ability #{i + 1}: {ability.Name}");
                 Console.WriteLine($"    Description: {ability.Desc}");
                 Console.WriteLine($"    Released in Generation: {ability.Generation}\n");
