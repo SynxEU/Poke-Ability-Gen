@@ -1,5 +1,5 @@
 ﻿using RandomAbilityGenerator.Ability;
-using RandomAbilityGenerator.Json;
+using RandomAbilityGenerator.Prompts;
 
 namespace RandomAbilityGenerator;
 
@@ -11,29 +11,14 @@ static class Program
 
         while (true)
         {
-            Console.Clear();
-            Console.Write("Enter number of abilities to roll: ");
-            if (!int.TryParse(Console.ReadLine(), out int rollCount) || rollCount < 1)
-            {
-                Console.WriteLine("Invalid number. Press Enter to try again.");
-                Console.ReadLine();
-                continue;
-            }
+            int rollCount = Prompt.PromptRollCount();
+            HashSet<string> bannedList = Prompt.PromptBannedAbilities();
 
-            Console.WriteLine("Enter banned abilities separated by commas (or leave empty):");
-            string bannedInput = Console.ReadLine() ?? "";
-            HashSet<string> bannedList = bannedInput
-                .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
-                .Select(name => name.ToLower())
-                .ToHashSet();
-            
-            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(JsonReader.LoadAbilities("Json/abilities.json"), bannedList);
+            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(bannedList);
 
             if (availableAbilities.Count == 0)
             {
-                Console.WriteLine("No abilities available to roll from due to bans.");
-                Console.WriteLine("Press Enter to try again...");
-                Console.ReadLine();
+                Prompt.Notify("No abilities available to roll from due to bans.");
                 continue;
             }
 
@@ -41,26 +26,13 @@ static class Program
 
             if (rollCount > chosenAbilities.Count)
             {
-                Console.WriteLine($"You requested {rollCount} unique abilities, but only {chosenAbilities.Count} are available.");
-                Console.WriteLine("Press Enter to try again...");
-                Console.ReadLine();
+                Prompt.Notify($"You requested {rollCount} unique abilities, but only {chosenAbilities.Count} are available.");
                 continue;
             }
 
-            Console.Clear();
-            for (int i = 0; i < chosenAbilities.Count; i++)
-            {
-                AbilityGenerator.PlayRollingAnimation(availableAbilities, new Random());
+            Prompt.ShowAbilities(availableAbilities, chosenAbilities);
 
-                AbilityEntity ability = chosenAbilities[i];
-                Console.WriteLine($"Ability #{i + 1}: {ability.Name}");
-                Console.WriteLine($"    Description: {ability.Desc}");
-                Console.WriteLine($"    Released in Generation: {ability.Generation}\n");
-            }
-
-            Console.Write("Do you want to roll again? (y/n): ");
-            string? again = Console.ReadLine()?.Trim().ToLower();
-            if (again != "y" && again != "yes")
+            if (!Prompt.AskYesNo("Do you want to roll again? (y/n): "))
                 break;
         }
 
