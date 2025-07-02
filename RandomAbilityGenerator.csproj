@@ -12,6 +12,13 @@
       <None Update="Json\abilities.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+        <None Update="Json\presets.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.20" />
     </ItemGroup>
     
 </Project>

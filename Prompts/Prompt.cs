@@ -1,59 +1,88 @@
 using RandomAbilityGenerator.Ability;
+using RandomAbilityGenerator.Json;
+using RandomAbilityGenerator.Models;
+using RandomAbilityGenerator.Service;
+using Spectre.Console;
 
 namespace RandomAbilityGenerator.Prompts;
 
-public class Prompt
+public static class Prompt
 {
-    public static int PromptRollCount()
+    public static void PromptCreatePreset(List<AbilityEntity> allAbilities)
     {
-        while (true)
-        {
-            Console.Clear();
-            Console.Write("Enter number of abilities to roll: ");
-            if (int.TryParse(Console.ReadLine(), out int count) && count > 0)
-                return count;
+        string name = AnsiConsole.Ask<string>("[green]Enter a name for the new preset:[/]");
+        string input = AnsiConsole.Ask<string>("[yellow]Enter banned abilities separated by commas:[/]");
 
-            Console.WriteLine("Invalid number. Press Enter to try again.");
-            Console.ReadLine();
+        var bannedNames = input.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                                .Select(n => n.ToLower()).ToList();
+
+        var bannedEntities = allAbilities
+            .Where(a => bannedNames.Contains(a.Name.ToLower()))
+            .Select(a => new BannedAbilities { AbilityId = a.Id, Ability = a })
+            .ToList();
+
+        var newPreset = new PresetEntity { Name = name, Abilities = bannedEntities };
+
+        var presets = JsonReader.LoadPresets(allAbilities);
+        presets.Add(newPreset);
+        JsonReader.SavePresets(presets);
+
+        AnsiConsole.MarkupLine($"[green]Preset '{name}' saved.[/]");
+        AnsiConsole.MarkupLine("[grey]Press Enter to continue...[/]");
+        Console.ReadLine();
+    }
+
+    public static PresetEntity? PromptSelectPreset(List<AbilityEntity> allAbilities)
+    {
+        var presets = JsonReader.LoadPresets(allAbilities);
+        if (!presets.Any())
+        {
+            AnsiConsole.MarkupLine("[red]No presets found.[/]");
+            return null;
         }
+
+        return AnsiConsole.Prompt(
+            new SelectionPrompt<PresetEntity>()
+                .Title("[yellow]Select a preset:[/]")
+                .AddChoices(presets)
+                .UseConverter(p => p.Name));
+    }
+
+    public static bool AskYesNo(string question)
+    {
+        return AnsiConsole.Confirm(question);
     }
 
     public static HashSet<string> PromptBannedAbilities()
     {
-        Console.WriteLine("Enter banned abilities separated by commas (or leave empty):");
-        string input = Console.ReadLine() ?? "";
-        return input
-            .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
-            .Select(name => name.ToLower())
-            .ToHashSet();
+        string input = AnsiConsole.Ask<string>("[yellow]Enter abilities to ban (comma-separated):[/]");
+        return input.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                    .Select(s => s.ToLower()).ToHashSet();
     }
 
-    public static void ShowAbilities(List<AbilityEntity> pool, List<AbilityEntity> chosen)
+    public static int PromptRollCount()
     {
-        Console.Clear();
+        return AnsiConsole.Ask<int>("[green]How many abilities would you like to roll?[/]");
+    }
 
-        for (int i = 0; i < chosen.Count; i++)
+    public static void ShowAbilities(List<AbilityEntity> chosen)
+    {
+        AnsiConsole.Clear();
+        AnsiConsole.Write(new Rule("[bold green]Rolled Abilities[/]").RuleStyle("grey").Centered());
+
+        foreach (var ability in chosen)
         {
-            AbilityGenerator.PlayRollingAnimation(pool, i, new Random());
-
-            AbilityEntity ability = chosen[i];
-            Console.WriteLine($"Ability #{i + 1}: {ability.Name}");
-            Console.WriteLine($"    Description: {ability.Desc}");
-            Console.WriteLine($"    Released in Generation: {ability.Generation}\n");
+            AnsiConsole.MarkupLine($"[blue]{ability.Name}[/]");
+            AnsiConsole.MarkupLine($"   [grey]Description: {ability.Desc}[/]");
+            AnsiConsole.MarkupLine($"   [grey]Released in generation: {ability.Generation}[/]");
+            AnsiConsole.MarkupLine("");
         }
     }
 
     public static void Notify(string message)
     {
-        Console.WriteLine(message);
-        Console.WriteLine("Press Enter to try again...");
+        AnsiConsole.MarkupLine($"[red]{message}[/]");
+        AnsiConsole.MarkupLine("[grey]Press Enter to continue...[/]");
         Console.ReadLine();
-    }
-
-    public static bool AskYesNo(string prompt)
-    {
-        Console.Write(prompt);
-        string? response = Console.ReadLine()?.Trim().ToLower();
-        return response == "y" || response == "yes";
     }
 }

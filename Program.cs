@@ -1,5 +1,9 @@
 ﻿using RandomAbilityGenerator.Ability;
+using RandomAbilityGenerator.Json;
+using RandomAbilityGenerator.Models;
+using RandomAbilityGenerator.Service;
 using RandomAbilityGenerator.Prompts;
+using Spectre.Console;
 
 namespace RandomAbilityGenerator;
 
@@ -9,11 +13,50 @@ static class Program
     {
         Console.Title = "Ability Generator";
 
+        var allAbilities = JsonReader.LoadAbilities("Json/abilities.json");
+
         while (true)
         {
+            AnsiConsole.Clear();
+            var option = AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                    .Title("[cyan]Choose an option:[/]")
+                    .AddChoices("Roll Abilities", "Create Preset", "Exit")
+            );
+
+            if (option == "Create Preset")
+            {
+                Prompt.PromptCreatePreset(allAbilities);
+                continue;
+            }
+
+            if (option == "Exit")
+                break;
+
             int rollCount = Prompt.PromptRollCount();
 
-            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(Prompt.PromptBannedAbilities());
+            PresetEntity? preset = null;
+            if (Prompt.AskYesNo("Use a preset?"))
+            {
+                preset = Prompt.PromptSelectPreset(allAbilities);
+                if (preset == null)
+                {
+                    Prompt.Notify("Preset selection cancelled.");
+                    continue;
+                }
+                if (preset != null)
+                {
+                    bool confirmed = Presets.ConfirmBannedAbilities(preset);
+                    if (!confirmed)
+                    {
+                        Prompt.Notify("Preset confirmation declined.");
+                        continue;
+                    }
+                }
+
+            }
+
+            List<AbilityEntity> availableAbilities = AbilityGenerator.GetFilteredAbilities(allAbilities, preset);
 
             if (availableAbilities.Count == 0)
             {
@@ -29,14 +72,13 @@ static class Program
                 continue;
             }
 
-            Prompt.ShowAbilities(availableAbilities, chosenAbilities);
+            Prompt.ShowAbilities(chosenAbilities);
 
-            if (!Prompt.AskYesNo("Do you want to roll again? (y/n): "))
+            if (!Prompt.AskYesNo("Want to return to the main menu?"))
                 break;
         }
 
-        Console.Clear();
-        Console.WriteLine("Press Enter to exit.");
+        AnsiConsole.MarkupLine("[grey]Press Enter to exit...[/]");
         Console.ReadLine();
     }
 }

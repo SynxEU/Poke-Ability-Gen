@@ -1,5 +1,7 @@
 using System.Text.Json;
 using RandomAbilityGenerator.Ability;
+using RandomAbilityGenerator.Models;
+using RandomAbilityGenerator.Models.Preset;
 
 namespace RandomAbilityGenerator.Json;
 
@@ -35,5 +37,46 @@ public static class JsonReader
             Console.WriteLine($"Failed to load abilities: {ex.Message}");
             return new List<AbilityEntity>();
         }
+    }
+
+    private const string PresetFilePath = "Json/presets.json";
+
+    public static List<PresetEntity> LoadPresets(List<AbilityEntity> allAbilities)
+    {
+        if (!File.Exists(PresetFilePath))
+            return new();
+
+        string json = File.ReadAllText(PresetFilePath);
+        var dto = JsonSerializer.Deserialize<FlattenPreset>(json);
+        if (dto == null) return new();
+
+        return new List<PresetEntity> {
+            new PresetEntity
+            {
+                Name = dto.Name,
+                Abilities = dto.BannedAbilityNames
+                    .Select(name => allAbilities.FirstOrDefault(a => a.Name.Equals(name, StringComparison.OrdinalIgnoreCase)))
+                    .Where(a => a != null)
+                    .Select(a => new BannedAbilities { Ability = a!, AbilityId = a!.Id })
+                    .ToList()
+            }
+        };
+
+    }
+
+
+    public static void SavePresets(List<PresetEntity> presets)
+    {
+        var dtos = presets.Select(p => new FlattenPreset()
+        {
+            Name = p.Name,
+            BannedAbilityNames = p.Abilities
+                .Select(b => b.Ability?.Name ?? string.Empty)
+                .Where(n => !string.IsNullOrWhiteSpace(n))
+                .ToList()
+        }).ToList();
+
+        string json = JsonSerializer.Serialize(dtos, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(PresetFilePath, json);
     }
 }
