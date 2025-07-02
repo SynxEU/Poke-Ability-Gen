@@ -69,8 +69,7 @@ public static class JsonReader
                 return new();
 
             string json = File.ReadAllText(PresetFilePath);
-            FlattenPreset dto = JsonSerializer.Deserialize<FlattenPreset>(json);
-            if (dto == null) return new();
+            FlattenPreset dto = JsonSerializer.Deserialize<FlattenPreset>(json) ?? new FlattenPreset();
 
             return new List<PresetEntity> {
                 new PresetEntity
