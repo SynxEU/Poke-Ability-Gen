@@ -7,8 +7,7 @@
 
 A C# console app that randomly generates Pokémon abilities from a JSON file — with support for bans, presets, and cool console visuals.
 ## 📁 Project Structure
-
-<pre>
+```text
 ├── Service/ 
 │ ├── Presets.cs # Logic for confirming presets 
 │ └── AbilityGenerator.cs # Filtering, randomizing, and displaying abilities 
@@ -25,10 +24,10 @@ A C# console app that randomly generates Pokémon abilities from a JSON file —
 ├── Resources/ 
 │ └── favicon.ico # App icon 
 ├── Prompts/ 
-│ └── prompt.cs # UI prompts and display logic 
+│ └── Prompt.cs # UI prompts and display logic 
 ├── Program.cs # Main entry point 
-└── RandomAbilityGenerator.csproj # Project file 
-</pre>
+└── RandomAbilityGenerator.csproj # Project file
+```
 
 ## ▶️ How It Works
 
@@ -44,7 +43,6 @@ A C# console app that randomly generates Pokémon abilities from a JSON file —
 ## 💾 JSON Format
 
 The abilities are loaded from a `Json/abilities.json` file. Each ability should look like this:
-
 ```json
 {
    "id": 1,
@@ -54,9 +52,9 @@ The abilities are loaded from a `Json/abilities.json` file. Each ability should 
    "desc": "Has a 10% chance of making target Pok\u00e9mon flinch with each hit."
 }
 ```
-⚠️ Note: Unicode escapes like `\u00e9` will be rendered as `é` in output. (Used to maintain compatibility with C/C++ style encodings.) \
-The presets are loaded from a `Json/presets.json` file. Each preset should look like this:
+⚠️ **Note**: Unicode escape sequences like \u00e9 represent characters such as é and will be correctly rendered in output. These escapes follow the C/C++/Java style encoding to ensure compatibility across different systems and tools.
 
+The presets are loaded from a `Json/presets.json` file. Each preset should look like this:
 ```json
 {
    "Name": "Cringe",
@@ -88,18 +86,17 @@ Or press **Run** in your IDE (Rider/VS).
 #### Display example:
 ![img.png](img.png)
 
-
 ## 📋 TODO
 - [x] Add all known Pokémon abilities (I can find) to the JSON file
 - [x] Add presets for ban lists
 
 ## ⛔ Issues/Missing abilities
-Please submit an issue on the [Issues page](https://github.com/SynxEU/Poke-Ability-Gen/issues) if you encounter bugs or issues \
+Please submit an issue on the [Issues page](https://github.com/SynxEU/Poke-Ability-Gen/issues) if you encounter bugs or issues <br/>
 If there are any missing abilities, feel free to contact me on Discord: **synx_eu**
 
 ## ⚖️ LICENSE
 This project is using [MIT LICENSE](https://github.com/SynxEU/Poke-Ability-Gen/blob/master/LICENSE)
 
 ## 🙋 Author
-Made by **SynxEU** \
+Made by **SynxEU** <br/>
 Created as a personal side project.
