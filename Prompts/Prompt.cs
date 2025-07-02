@@ -74,7 +74,7 @@ public static class Prompt
         {
             AnsiConsole.MarkupLine($"[blue]{ability.Name}[/]");
             AnsiConsole.MarkupLine($"   [grey]Description: {ability.Desc}[/]");
-            AnsiConsole.MarkupLine($"   [grey]Released in generation: {ability.Generation}[/]");
+            AnsiConsole.MarkupLine($"   [grey]Released in generation: {ability.GenerationNumber} ({ability.GenerationName})[/]");
             AnsiConsole.MarkupLine("");
         }
     }

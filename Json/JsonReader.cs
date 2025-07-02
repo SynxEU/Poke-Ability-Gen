@@ -23,9 +23,12 @@ public static class JsonReader
                     Name = elem.TryGetProperty("name", out var nameProp) 
                         ? nameProp.GetString() 
                           ?? string.Empty : string.Empty,
-                    Generation = elem.TryGetProperty("gen", out var genProp) 
-                                 && genProp.TryGetInt32(out int gen) 
-                        ? gen : 0,
+                    GenerationNumber = elem.TryGetProperty("genNumber", out var genNumProp) 
+                                 && genNumProp.TryGetInt32(out int genNumber) 
+                        ? genNumber : 0,
+                    GenerationName = elem.TryGetProperty("genName", out var genNameProp) 
+                        ? genNameProp.GetString() 
+                          ?? string.Empty : string.Empty,
                     Desc = elem.TryGetProperty("desc", out var descProp) 
                         ? descProp.GetString() 
                           ?? string.Empty : string.Empty,

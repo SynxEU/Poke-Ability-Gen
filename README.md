@@ -48,7 +48,8 @@ The abilities are loaded from a `Json/abilities.json` file. Each ability should 
 {
    "id": 1,
    "name": "Stench",
-   "gen": 3,
+   "genNumber": 3,
+   "genName": "Hoenn",
    "desc": "Has a 10% chance of making target Pok\u00e9mon flinch with each hit."
 }
 ```
