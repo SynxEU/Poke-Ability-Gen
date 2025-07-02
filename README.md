@@ -53,7 +53,7 @@ The abilities are loaded from a `Json/abilities.json` file. Each ability should 
    "desc": "Has a 10% chance of making target Pok\u00e9mon flinch with each hit."
 }
 ```
-Disclaimer: "\u00e9" gets converted to "è" (Used from C/C++ source code) \
+Disclaimer: "\u00e9" gets converted to "é" (Used from C/C++ source code) \
 The presets are loaded from a `Json/presets.json` file. Each preset should look like this:
 
 ```json
