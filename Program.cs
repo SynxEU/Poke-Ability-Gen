@@ -74,7 +74,7 @@ static class Program
 
             Prompt.ShowAbilities(chosenAbilities);
 
-            if (!Prompt.AskYesNo("Want to return to the main menu?"))
+            if (Prompt.AskYesNo("Want to exit the generator?"))
                 break;
         }
 

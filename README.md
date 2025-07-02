@@ -87,9 +87,21 @@ dotnet run
 ```
 Or press **Run** in your IDE (Rider/VS).
 
-## 👀 How it looks:
-#### Display example:
+## 👀 How it looks
+<details>
+  <summary>Examples</summary>
+
+### Display
 ![img.png](img.png)
+
+### Create Preset
+#### Inputs:
+![img_1.png](img_1.png)
+#### After Addition To JSON
+![img_2.png](img_2.png)
+
+</details>
+
 
 ## 📋 TODO
 - [x] Add all known Pokémon abilities (I can find) to the JSON file
