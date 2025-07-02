@@ -3,7 +3,7 @@ using RandomAbilityGenerator.Models;
 namespace RandomAbilityGenerator.Models;
 
 /// <summary>
-/// Represents an ability that can be assigned to a character or entity.
+/// Represents an ability.
 /// Includes metadata such as generation information and description.
 /// </summary>
 public class AbilityEntity
