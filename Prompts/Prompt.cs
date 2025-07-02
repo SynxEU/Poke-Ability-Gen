@@ -72,6 +72,7 @@ public static class Prompt
 
         foreach (var ability in chosen)
         {
+            AnsiConsole.MarkupLine("");
             AnsiConsole.MarkupLine($"[blue]{ability.Name}[/]");
             AnsiConsole.MarkupLine($"   [grey]Description: {ability.Desc}[/]");
             AnsiConsole.MarkupLine($"   [grey]Released in generation: {ability.GenerationNumber} ({ability.GenerationName})[/]");

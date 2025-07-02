@@ -84,7 +84,7 @@ dotnet run
 Or press **Run** in your IDE (Rider/VS).
 
 ## 👀 How it looks:
-#### Ability example:
+#### Display example:
 ![img.png](img.png)
 
 
