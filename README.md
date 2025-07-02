@@ -11,20 +11,25 @@ A C# console app that randomly generates Pokémon abilities from a JSON file —
 ├── Service/ 
 │ ├── Presets.cs # Logic for confirming presets 
 │ └── AbilityGenerator.cs # Filtering, randomizing, and displaying abilities 
+│
 ├── Json/ 
 │ ├── abilities.json # All ability data 
 │ ├── presets.json # All preset data 
 │ └── JsonReader.cs # Loads and parses JSON files 
+│
 ├── Models/ 
 │ ├── AbilityEntity.cs # Represents ability data 
 │ ├── BannedAbilities.cs # Links presets to banned abilities 
 │ └── Preset/ 
 │     ├── FlattenPreset.cs # Flattened preset data from/to JSON 
 │     └── PresetEntity.cs # Preset data after transformation 
+│
 ├── Resources/ 
 │ └── favicon.ico # App icon 
+│
 ├── Prompts/ 
 │ └── Prompt.cs # UI prompts and display logic 
+│
 ├── Program.cs # Main entry point 
 └── RandomAbilityGenerator.csproj # Project file
 ```
