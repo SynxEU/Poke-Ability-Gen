@@ -1,9 +1,12 @@
 using Spectre.Console;
-using RandomAbilityGenerator.Models;
-using System.Linq;
+using RandomAbilityGenerator.Models.Preset;
 
 namespace RandomAbilityGenerator.Service;
 
+/// <summary>
+/// Provides utility methods for interacting with and validating ability presets,
+/// including user confirmation of banned abilities.
+/// </summary>
 public class Presets
 {
     /// <summary>
@@ -25,7 +28,7 @@ public class Presets
         }
         else
         {
-            var table = new Table();
+            Table table = new Table();
             table.AddColumn("[u]Banned Abilities[/]");
 
             foreach (var banned in preset.Abilities.Where(b => b.Ability != null))

@@ -1,6 +1,6 @@
-﻿using RandomAbilityGenerator.Ability;
+﻿using RandomAbilityGenerator.Models;
 using RandomAbilityGenerator.Json;
-using RandomAbilityGenerator.Models;
+using RandomAbilityGenerator.Models.Preset;
 using RandomAbilityGenerator.Service;
 using RandomAbilityGenerator.Prompts;
 using Spectre.Console;
@@ -13,12 +13,12 @@ static class Program
     {
         Console.Title = "Ability Generator";
 
-        var allAbilities = JsonReader.LoadAbilities("Json/abilities.json");
+        List<AbilityEntity> allAbilities = JsonReader.LoadAbilities("Json/abilities.json");
 
         while (true)
         {
             AnsiConsole.Clear();
-            var option = AnsiConsole.Prompt(
+            string option = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
                     .Title("[cyan]Choose an option:[/]")
                     .AddChoices("Roll Abilities", "Create Preset", "Exit")

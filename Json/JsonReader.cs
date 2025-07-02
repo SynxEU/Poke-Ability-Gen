@@ -1,12 +1,24 @@
 using System.Text.Json;
-using RandomAbilityGenerator.Ability;
 using RandomAbilityGenerator.Models;
 using RandomAbilityGenerator.Models.Preset;
 
 namespace RandomAbilityGenerator.Json;
 
+/// <summary>
+/// Provides functionality to load and save abilities and presets from/to JSON files.
+/// Handles deserialization of ability data and preset configurations, with error handling.
+/// </summary>
 public static class JsonReader
 {
+    private const string PresetFilePath = "Json/presets.json";
+    
+    /// <summary>
+    /// Loads a list of abilities from a JSON file at the specified path.
+    /// Parses ability properties such as Id, Name, GenerationNumber, GenerationName, and Description.
+    /// Returns an empty list if the file cannot be read or parsed.
+    /// </summary>
+    /// <param name="filePath">The path to the JSON file containing ability data.</param>
+    /// <returns>A list of <see cref="AbilityEntity"/> objects parsed from the JSON file.</returns>
     public static List<AbilityEntity> LoadAbilities(string filePath)
     {
         try
@@ -42,44 +54,69 @@ public static class JsonReader
         }
     }
 
-    private const string PresetFilePath = "Json/presets.json";
-
+    /// <summary>
+    /// Loads presets from a predefined JSON file path.
+    /// Maps banned ability names from the preset JSON to actual <see cref="AbilityEntity"/> instances.
+    /// Returns an empty list if the file does not exist or deserialization fails.
+    /// </summary>
+    /// <param name="allAbilities">The complete list of all available abilities.</param>
+    /// <returns>A list of <see cref="PresetEntity"/> objects with associated banned abilities.</returns>
     public static List<PresetEntity> LoadPresets(List<AbilityEntity> allAbilities)
     {
-        if (!File.Exists(PresetFilePath))
-            return new();
+        try
+        {
+            if (!File.Exists(PresetFilePath))
+                return new();
 
-        string json = File.ReadAllText(PresetFilePath);
-        var dto = JsonSerializer.Deserialize<FlattenPreset>(json);
-        if (dto == null) return new();
+            string json = File.ReadAllText(PresetFilePath);
+            FlattenPreset dto = JsonSerializer.Deserialize<FlattenPreset>(json);
+            if (dto == null) return new();
 
-        return new List<PresetEntity> {
-            new PresetEntity
-            {
-                Name = dto.Name,
-                Abilities = dto.BannedAbilityNames
-                    .Select(name => allAbilities.FirstOrDefault(a => a.Name.Equals(name, StringComparison.OrdinalIgnoreCase)))
-                    .Where(a => a != null)
-                    .Select(a => new BannedAbilities { Ability = a!, AbilityId = a!.Id })
-                    .ToList()
-            }
-        };
-
+            return new List<PresetEntity> {
+                new PresetEntity
+                {
+                    Name = dto.Name,
+                    Abilities = dto.BannedAbilityNames
+                        .Select(name => allAbilities.FirstOrDefault(a => a.Name.Equals(name, StringComparison.OrdinalIgnoreCase)))
+                        .Where(a => a != null)
+                        .Select(a => new BannedAbilities { Ability = a!, AbilityId = a!.Id })
+                        .ToList()
+                }
+            };
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to load presets: {ex.Message}");
+            return new List<PresetEntity>();
+        }
     }
 
-
+    /// <summary>
+    /// Saves the given list of presets to the predefined JSON file path.
+    /// Serializes presets by flattening banned abilities to their names.
+    /// Throws an exception if saving fails.
+    /// </summary>
+    /// <param name="presets">The list of presets to save.</param>
     public static void SavePresets(List<PresetEntity> presets)
     {
-        var dtos = presets.Select(p => new FlattenPreset()
+        try
         {
-            Name = p.Name,
-            BannedAbilityNames = p.Abilities
-                .Select(b => b.Ability?.Name ?? string.Empty)
-                .Where(n => !string.IsNullOrWhiteSpace(n))
-                .ToList()
-        }).ToList();
+            List<FlattenPreset> dtos = presets.Select(p => new FlattenPreset()
+            {
+                Name = p.Name,
+                BannedAbilityNames = p.Abilities
+                    .Select(b => b.Ability?.Name ?? string.Empty)
+                    .Where(n => !string.IsNullOrWhiteSpace(n))
+                    .ToList()
+            }).ToList();
 
-        string json = JsonSerializer.Serialize(dtos, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(PresetFilePath, json);
+            string json = JsonSerializer.Serialize(dtos, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(PresetFilePath, json);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to save presets: {ex.Message}");
+            throw;
+        }
     }
 }
