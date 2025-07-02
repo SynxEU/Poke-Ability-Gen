@@ -63,6 +63,7 @@ Or press **Run** in your IDE (Rider/VS).
 
 ## 📋 TO:DO
 - [x] Add every Pokémon ability (I can find) to the JSON file
+- [ ] Add presets for ban lists
 
 ## ⛔ Issues/Missing abilities
 If you have any issues with the program please put it under the [Issuess page](https://github.com/SynxEU/Poke-Ability-Gen/issues) \
