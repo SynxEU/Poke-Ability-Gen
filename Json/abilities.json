@@ -9,1837 +9,2143 @@
   {
     "id": 2,
     "name": "Drizzle",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Summons rain that lasts indefinitely upon entering battle."
   },
   {
     "id": 3,
     "name": "Speed Boost",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Raises Speed one stage after each turn."
   },
   {
     "id": 4,
     "name": "Battle Armor",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against critical hits."
   },
   {
     "id": 5,
     "name": "Sturdy",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
   },
   {
     "id": 6,
     "name": "Damp",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents self destruct, explosion, and aftermath from working while the Pok\u00e9mon is in battle."
   },
   {
     "id": 7,
     "name": "Limber",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents paralysis."
   },
   {
     "id": 8,
     "name": "Sand Veil",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases evasion to 1.25\u00d7 during a sandstorm.  Protects against sandstorm damage."
   },
   {
     "id": 9,
     "name": "Static",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 30% chance of paralyzing attacking Pok\u00e9mon on contact."
   },
   {
     "id": 10,
     "name": "Volt Absorb",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Absorbs electric moves, healing for 1/4 max HP."
   },
   {
     "id": 11,
     "name": "Water Absorb",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Absorbs water moves, healing for 1/4 max HP."
   },
   {
     "id": 12,
     "name": "Oblivious",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents infatuation and protects against captivate."
   },
   {
     "id": 13,
     "name": "Cloud Nine",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Negates all effects of weather, but does not prevent the weather itself."
   },
   {
     "id": 14,
     "name": "Compound Eyes",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases moves' accuracy to 1.3\u00d7."
   },
   {
     "id": 15,
     "name": "Insomnia",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents sleep."
   },
   {
     "id": 16,
     "name": "Color Change",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Changes type to match when hit by a damaging move."
   },
   {
     "id": 17,
     "name": "Immunity",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents poison."
   },
   {
     "id": 18,
     "name": "Flash Fire",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against fire moves.  Once one has been blocked, the Pok\u00e9mon's own Fire moves inflict 1.5\u00d7 damage until it leaves battle."
   },
   {
     "id": 19,
     "name": "Shield Dust",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against incoming moves' extra effects."
   },
   {
     "id": 20,
     "name": "Own Tempo",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents confusion."
   },
   {
     "id": 21,
     "name": "Suction Cups",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents being forced out of battle by other Pok\u00e9mon's moves."
   },
   {
     "id": 22,
     "name": "Intimidate",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Lowers opponents' Attack one stage upon entering battle."
   },
   {
     "id": 23,
     "name": "Shadow Tag",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents opponents from fleeing or switching out."
   },
   {
     "id": 24,
     "name": "Rough Skin",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Damages attacking Pok\u00e9mon for 1/8 their max HP on contact."
   },
   {
     "id": 25,
     "name": "Wonder Guard",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against damaging moves that are not super effective."
   },
   {
     "id": 26,
     "name": "Levitate",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Evades ground moves."
   },
   {
     "id": 27,
     "name": "Effect Spore",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pok\u00e9mon on contact."
   },
   {
     "id": 28,
     "name": "Synchronize",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Copies burns, paralysis, and poison received onto the Pok\u00e9mon that inflicted them."
   },
   {
     "id": 29,
     "name": "Clear Body",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents stats from being lowered by other Pok\u00e9mon."
   },
   {
     "id": 30,
     "name": "Natural Cure",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Cures any major status ailment upon switching out."
   },
   {
     "id": 31,
     "name": "Lightning Rod",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Redirects single-target electric moves to this Pok\u00e9mon where possible.  Absorbs Electric moves, raising Special Attack one stage."
   },
   {
     "id": 32,
     "name": "Serene Grace",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles the chance of moves' extra effects occurring."
   },
   {
     "id": 33,
     "name": "Swift Swim",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles Speed during rain."
   },
   {
     "id": 34,
     "name": "Chlorophyll",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles Speed during strong sunlight."
   },
   {
     "id": 35,
     "name": "Illuminate",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles the wild encounter rate."
   },
   {
     "id": 36,
     "name": "Trace",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Copies an opponent's ability upon entering battle."
   },
   {
     "id": 37,
     "name": "Huge Power",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles Attack in battle."
   },
   {
     "id": 38,
     "name": "Poison Point",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 30% chance of poisoning attacking Pok\u00e9mon on contact."
   },
   {
     "id": 39,
     "name": "Inner Focus",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents flinching."
   },
   {
     "id": 40,
     "name": "Magma Armor",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents freezing."
   },
   {
     "id": 41,
     "name": "Water Veil",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents burns."
   },
   {
     "id": 42,
     "name": "Magnet Pull",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents steel opponents from fleeing or switching out."
   },
   {
     "id": 43,
     "name": "Soundproof",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against sound-based moves."
   },
   {
     "id": 44,
     "name": "Rain Dish",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Heals for 1/16 max HP after each turn during rain."
   },
   {
     "id": 45,
     "name": "Sand Stream",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Summons a sandstorm that lasts indefinitely upon entering battle."
   },
   {
     "id": 46,
     "name": "Pressure",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases the PP cost of moves targetting the Pok\u00e9mon by one."
   },
   {
     "id": 47,
     "name": "Thick Fat",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Halves damage from fire and ice moves."
   },
   {
     "id": 48,
     "name": "Early Bird",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Makes sleep pass twice as quickly."
   },
   {
     "id": 49,
     "name": "Flame Body",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 30% chance of burning attacking Pok\u00e9mon on contact."
   },
   {
     "id": 50,
     "name": "Run Away",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Ensures success fleeing from wild battles."
   },
   {
     "id": 6,
     "name": "Keen Eye",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents accuracy from being lowered."
   },
   {
     "id": 52,
     "name": "Hyper Cutter",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents Attack from being lowered by other Pok\u00e9mon."
   },
   {
     "id": 53,
     "name": "Pickup",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Picks up other Pok\u00e9mon's used and Flung held items.  May also pick up an item after battle."
   },
   {
     "id": 54,
     "name": "Truant",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Skips every second turn."
   },
   {
     "id": 55,
     "name": "Hustle",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Strengthens physical moves to inflict 1.5\u00d7 damage, but decreases their accuracy to 0.8\u00d7."
   },
   {
     "id": 56,
     "name": "Cute Charm",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 30% chance of infatuating attacking Pok\u00e9mon on contact."
   },
   {
     "id": 57,
     "name": "Plus",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases Special Attack to 1.5\u00d7 when a friendly Pok\u00e9mon has plus or minus."
   },
   {
     "id": 58,
     "name": "Minus",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases Special Attack to 1.5\u00d7 when a friendly Pok\u00e9mon has plus or minus."
   },
   {
     "id": 59,
     "name": "Forecast",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Changes castform's type and form to match the weather."
   },
   {
     "id": 60,
     "name": "Sticky Hold",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents a held item from being removed by other Pok\u00e9mon."
   },
   {
     "id": 61,
     "name": "Shed Skin",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Has a 33% chance of curing any major status ailment after each turn."
   },
   {
     "id": 62,
     "name": "Guts",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases Attack to 1.5\u00d7 with a major status ailment."
   },
   {
     "id": 63,
     "name": "Marvel Scale",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Increases Defense to 1.5\u00d7 with a major status ailment."
   },
   {
     "id": 64,
     "name": "Liquid Ooze",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Damages opponents using leeching moves for as much as they would heal."
   },
   {
     "id": 65,
     "name": "Overgrow",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Strengthens grass moves to inflict 1.5\u00d7 damage at 1/3 max HP or less."
   },
   {
     "id": 66,
     "name": "Blaze",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Strengthens fire moves to inflict 1.5\u00d7 damage at 1/3 max HP or less."
   },
   {
     "id": 67,
     "name": "Torrent",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Strengthens water moves to inflict 1.5\u00d7 damage at 1/3 max HP or less."
   },
   {
     "id": 68,
     "name": "Swarm",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Strengthens bug moves to inflict 1.5\u00d7 damage at 1/3 max HP or less."
   },
   {
     "id": 69,
     "name": "Rock Head",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against recoil damage."
   },
   {
     "id": 70,
     "name": "Drought",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Summons strong sunlight that lasts indefinitely upon entering battle."
   },
   {
     "id": 71,
     "name": "Arena Trap",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents opponents from fleeing or switching out.  Eluded by flying-types and Pok\u00e9mon in the air."
   },
   {
     "id": 72,
     "name": "Vital Spirit",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents sleep."
   },
   {
     "id": 73,
     "name": "White Smoke",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Prevents stats from being lowered by other Pok\u00e9mon."
   },
   {
     "id": 74,
     "name": "Pure Power",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Doubles Attack in battle."
   },
   {
     "id": 75,
     "name": "Shell Armor",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Protects against critical hits."
   },
   {
     "id": 76,
     "name": "Air Lock",
-    "genNumber": 3, "genName": "Hoenn",
+    "genNumber": 3,
+    "genName": "Hoenn",
     "desc": "Negates all effects of weather, but does not prevent the weather itself."
   },
   {
     "id": 77,
     "name": "Tangled Feet",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Doubles evasion when confused."
   },
   {
     "id": 78,
     "name": "Motor Drive",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Absorbs electric moves, raising Speed one stage."
   },
   {
     "id": 79,
     "name": "Rivalry",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases damage inflicted to 1.25\u00d7 against Pok\u00e9mon of the same gender, but decreases damage to 0.75\u00d7 against the opposite gender."
   },
   {
     "id": 80,
     "name": "Steadfast",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Raises Speed one stage upon flinching."
   },
   {
     "id": 81,
     "name": "Snow Cloak",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases evasion to 1.25\u00d7 during hail.  Protects against hail damage."
   },
   {
     "id": 82,
     "name": "Gluttony",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Makes the Pok\u00e9mon eat any held Berry triggered by low HP below 1/2 its max HP."
   },
   {
     "id": 83,
     "name": "Anger Point",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Raises Attack to the maximum of six stages upon receiving a critical hit."
   },
   {
     "id": 84,
     "name": "Unburden",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Doubles Speed upon using or losing a held item."
   },
   {
     "id": 85,
     "name": "Heatproof",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Halves damage from fire moves and burns."
   },
   {
     "id": 86,
     "name": "Simple",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Doubles the Pok\u00e9mon's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages."
   },
   {
     "id": 87,
     "name": "Dry Skin",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25\u00d7, but absorbs water moves, healing for 1/4 max HP."
   },
   {
     "id": 88,
     "name": "Download",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle."
   },
   {
     "id": 89,
     "name": "Iron Fist",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Strengthens punch-based moves to 1.2\u00d7 their power."
   },
   {
     "id": 90,
     "name": "Poison Heal",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
   },
   {
     "id": 91,
     "name": "Adaptability",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases the same-type attack bonus from 1.5\u00d7 to 2\u00d7."
   },
   {
     "id": 92,
     "name": "Skill Link",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Extends two-to-five-hit moves and triple kick to their full length every time."
   },
   {
     "id": 93,
     "name": "Hydration",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Cures any major status ailment after each turn during rain."
   },
   {
     "id": 94,
     "name": "Solar Power",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases Special Attack to 1.5\u00d7 but costs 1/8 max HP after each turn during strong sunlight."
   },
   {
     "id": 95,
     "name": "Quick Feet",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases Speed to 1.5\u00d7 with a major status ailment."
   },
   {
     "id": 96,
     "name": "Normalize",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Makes the Pok\u00e9mon's moves all act normal-type."
   },
   {
     "id": 97,
     "name": "Sniper",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Strengthens critical hits to inflict 3\u00d7 damage rather than 2\u00d7."
   },
   {
     "id": 98,
     "name": "Magic Guard",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Protects against damage not directly caused by a move."
   },
   {
     "id": 99,
     "name": "No Guard",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Ensures all moves used by and against the Pok\u00e9mon hit."
   },
   {
     "id": 100,
     "name": "Stall",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Makes the Pok\u00e9mon move last within its move's priority bracket."
   },
   {
     "id": 101,
     "name": "Technician",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Strengthens moves of 60 base power or less to 1.5\u00d7 their power."
   },
   {
     "id": 102,
     "name": "Leaf Guard",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Protects against major status ailments during strong sunlight."
   },
   {
     "id": 103,
     "name": "Klutz",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Prevents the Pok\u00e9mon from using its held item in battle."
   },
   {
     "id": 104,
     "name": "Mold Breaker",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Bypasses targets' abilities if they could hinder or prevent a move."
   },
   {
     "id": 105,
     "name": "Super Luck",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Raises moves' critical hit rates one stage."
   },
   {
     "id": 106,
     "name": "Aftermath",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
   },
   {
     "id": 107,
     "name": "Anticipation",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
   },
   {
     "id": 108,
     "name": "Forewarn",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Reveals the opponents' strongest move upon entering battle."
   },
   {
     "id": 109,
     "name": "Unaware",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Ignores other Pok\u00e9mon's stat modifiers for damage and accuracy calculation."
   },
   {
     "id": 110,
     "name": "Tinted Lens",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Doubles damage inflicted with not-very-effective moves."
   },
   {
     "id": 111,
     "name": "Filter",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Decreases damage taken from super-effective moves by 1/4."
   },
   {
     "id": 112,
     "name": "Slow Start",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Halves Attack and Speed for five turns upon entering battle."
   },
   {
     "id": 113,
     "name": "Scrappy",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Lets the Pok\u00e9mon's normal and fighting moves hit ghost Pok\u00e9mon."
   },
   {
     "id": 114,
     "name": "Storm Drain",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Redirects single-target water moves to this Pok\u00e9mon where possible.  Absorbs Water moves, raising Special Attack one stage."
   },
   {
     "id": 115,
     "name": "Ice Body",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
   },
   {
     "id": 116,
     "name": "Solid Rock",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Decreases damage taken from super-effective moves by 1/4."
   },
   {
     "id": 117,
     "name": "Snow Warning",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Summons hail that lasts indefinitely upon entering battle."
   },
   {
     "id": 118,
     "name": "Honey Gather",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "The Pok\u00e9mon may pick up honey after battle."
   },
   {
     "id": 119,
     "name": "Frisk",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Reveals an opponent's held item upon entering battle."
   },
   {
     "id": 120,
     "name": "Reckless",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Strengthens recoil moves to 1.2\u00d7 their power."
   },
   {
     "id": 121,
     "name": "Multitype",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Changes arceus's type and form to match its held Plate."
   },
   {
     "id": 122,
     "name": "Flower Gift",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Increases friendly Pok\u00e9mon's Attack and Special Defense to 1.5\u00d7 during strong sunlight."
   },
   {
     "id": 123,
     "name": "Bad Dreams",
-    "genNumber": 4, "genName": "Sinnoh",
+    "genNumber": 4,
+    "genName": "Sinnoh",
     "desc": "Damages sleeping opponents for 1/8 their max HP after each turn."
   },
   {
     "id": 124,
     "name": "Pickpocket",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Steals attacking Pok\u00e9mon's held items on contact."
   },
   {
     "id": 125,
     "name": "Sheer Force",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Strengthens moves with extra effects to 1.3\u00d7 their power, but prevents their extra effects."
   },
   {
     "id": 126,
     "name": "Contrary",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Inverts stat changes."
   },
   {
     "id": 127,
     "name": "Unnerve",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Prevents opposing Pok\u00e9mon from eating held Berries."
   },
   {
     "id": 128,
     "name": "Defiant",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises Attack two stages upon having any stat lowered."
   },
   {
     "id": 129,
     "name": "Defeatist",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Halves Attack and Special Attack at 50% max HP or less."
   },
   {
     "id": 130,
     "name": "Cursed Body",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Has a 30% chance of Disabling any move that hits the Pok\u00e9mon."
   },
   {
     "id": 131,
     "name": "Healer",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn."
   },
   {
     "id": 132,
     "name": "Friend Guard",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Decreases all direct damage taken by friendly Pok\u00e9mon to 0.75\u00d7."
   },
   {
     "id": 133,
     "name": "Weak Armor",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
   },
   {
     "id": 134,
     "name": "Heavy Metal",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Doubles the Pok\u00e9mon's weight."
   },
   {
     "id": 135,
     "name": "Light Metal",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Halves the Pok\u00e9mon's weight."
   },
   {
     "id": 136,
     "name": "Multiscale",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Halves damage taken from full HP."
   },
   {
     "id": 137,
     "name": "Toxic Boost",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Increases Attack to 1.5\u00d7 when poisoned."
   },
   {
     "id": 138,
     "name": "Flare Boost",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Increases Special Attack to 1.5\u00d7 when burned."
   },
   {
     "id": 139,
     "name": "Harvest",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Has a 50% chance of restoring a used Berry after each turn if the Pok\u00e9mon has held no items in the meantime."
   },
   {
     "id": 140,
     "name": "Telepathy",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Protects against friendly Pok\u00e9mon's damaging moves."
   },
   {
     "id": 141,
     "name": "Moody",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises a random stat two stages and lowers another one stage after each turn."
   },
   {
     "id": 142,
     "name": "Overcoat",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Protects against damage from weather."
   },
   {
     "id": 143,
     "name": "Poison Touch",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Has a 30% chance of poisoning target Pok\u00e9mon upon contact."
   },
   {
     "id": 144,
     "name": "Regenerator",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Heals for 1/3 max HP upon switching out."
   },
   {
     "id": 145,
     "name": "Big Pecks",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Protects against Defense drops."
   },
   {
     "id": 146,
     "name": "Sand Rush",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Doubles Speed during a sandstorm.  Protects against sandstorm damage."
   },
   {
     "id": 147,
     "name": "Wonder Skin",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Lowers incoming non-damaging moves' base accuracy to exactly 50%."
   },
   {
     "id": 148,
     "name": "Analytic",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Strengthens moves to 1.3\u00d7 their power when moving last."
   },
   {
     "id": 149,
     "name": "Illusion",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Takes the appearance of the last conscious party Pok\u00e9mon upon being sent out until hit by a damaging move."
   },
   {
     "id": 150,
     "name": "Imposter",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Transforms upon entering battle."
   },
   {
     "id": 151,
     "name": "Infiltrator",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Bypasses light screen, reflect, and safeguard."
   },
   {
     "id": 152,
     "name": "Mummy",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Changes attacking Pok\u00e9mon's abilities to Mummy on contact."
   },
   {
     "id": 153,
     "name": "Moxie",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises Attack one stage upon KOing a Pok\u00e9mon."
   },
   {
     "id": 154,
     "name": "Justified",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises Attack one stage upon taking damage from a dark move."
   },
   {
     "id": 155,
     "name": "Rattled",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
   },
   {
     "id": 156,
     "name": "Magic Bounce",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Reflects most non-damaging moves back at their user."
   },
   {
     "id": 157,
     "name": "Sap Sipper",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Absorbs grass moves, raising Attack one stage."
   },
   {
     "id": 158,
     "name": "Prankster",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Raises non-damaging moves' priority by one stage."
   },
   {
     "id": 159,
     "name": "Sand Force",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Strengthens rock, ground, and steel moves to 1.3\u00d7 their power during a sandstorm.  Protects against sandstorm damage."
   },
   {
     "id": 160,
     "name": "Iron Barbs",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Damages attacking Pok\u00e9mon for 1/8 their max HP on contact."
   },
   {
     "id": 161,
     "name": "Zen Mode",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Changes darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise."
   },
   {
     "id": 162,
     "name": "Victory Star",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Increases moves' accuracy to 1.1\u00d7 for friendly Pok\u00e9mon."
   },
   {
     "id": 163,
     "name": "Turboblaze",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Bypasses targets' abilities if they could hinder or prevent moves."
   },
   {
     "id": 164,
     "name": "Teravolt",
-    "genNumber": 5, "genName": "Unova",
+    "genNumber": 5,
+    "genName": "Unova",
     "desc": "Bypasses targets' abilities if they could hinder or prevent moves."
   },
   {
     "id": 165,
     "name": "Aroma Veil",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Protects allies against moves that affect their mental state."
   },
   {
     "id": 166,
     "name": "Flower Veil",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Protects friendly grass Pok\u00e9mon from having their stats lowered by other Pok\u00e9mon."
   },
   {
     "id": 167,
     "name": "Cheek Pouch",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Restores HP upon eating a Berry, in addition to the Berry's effect."
   },
   {
     "id": 168,
     "name": "Protean",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Changes the bearer's type to match each move it uses."
   },
   {
     "id": 169,
     "name": "Fur Coat",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Halves damage from physical attacks."
   },
   {
     "id": 170,
     "name": "Magician",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Steals the target's held item when the bearer uses a damaging move."
   },
   {
     "id": 171,
     "name": "Bulletproof",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Protects against bullet, ball, and bomb-based moves."
   },
   {
     "id": 172,
     "name": "Competitive",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Raises Special Attack by two stages upon having any stat lowered."
   },
   {
     "id": 173,
     "name": "Strong Jaw",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Strengthens biting moves to 1.5\u00d7 their power."
   },
   {
     "id": 174,
     "name": "Refrigerate",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Turns the bearer's normal moves into ice moves and strengthens them to 1.3\u00d7 their power."
   },
   {
     "id": 175,
     "name": "Sweet Veil",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Prevents friendly Pok\u00e9mon from sleeping."
   },
   {
     "id": 176,
     "name": "Stance Change",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield."
   },
   {
     "id": 177,
     "name": "Gale Wings",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Raises flying moves' priority by one stage."
   },
   {
     "id": 178,
     "name": "Mega Launcher",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Strengthens aura and pulse moves to 1.5\u00d7 their power."
   },
   {
     "id": 179,
     "name": "Grass Pelt",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Boosts Defense while grassy terrain is in effect."
   },
   {
     "id": 180,
     "name": "Symbiosis",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Passes the bearer's held item to an ally when the ally uses up its item."
   },
   {
     "id": 181,
     "name": "Tough Claws",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Strengthens moves that make contact to 1.33\u00d7 their power."
   },
   {
     "id": 182,
     "name": "Pixilate",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Turns the bearer's normal moves into fairy moves and strengthens them to 1.3\u00d7 their power."
   },
   {
     "id": 183,
     "name": "Gooey",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Lowers attacking Pok\u00e9mon's Speed by one stage on contact."
   },
   {
     "id": 184,
     "name": "Aerilate",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Turns the bearer's normal moves into flying moves and strengthens them to 1.3\u00d7 their power."
   },
   {
     "id": 185,
     "name": "Parental Bond",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Lets the bearer hit twice with damaging moves.  The second hit has half power."
   },
   {
     "id": 186,
     "name": "Dark Aura",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Strengthens dark moves to 1.33\u00d7 their power for all friendly and opposing Pok\u00e9mon."
   },
   {
     "id": 187,
     "name": "Fairy Aura",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Strengthens fairy moves to 1.33\u00d7 their power for all friendly and opposing Pok\u00e9mon."
   },
   {
     "id": 188,
     "name": "Aura Break",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Makes dark aura and fairy aura weaken moves of their respective types."
   },
   {
     "id": 189,
     "name": "Primordial Sea",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail."
   },
   {
     "id": 190,
     "name": "Desolate Land",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail."
   },
   {
     "id": 191,
     "name": "Delta Stream",
-    "genNumber": 6, "genName": "Kalos",
+    "genNumber": 6,
+    "genName": "Kalos",
     "desc": "Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pok\u00e9mon."
   },
   {
     "id": 192,
     "name": "Stamina",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Raises this Pok\u00e9mon's Defense by one stage when it takes damage from a move."
   },
   {
     "id": 193,
     "name": "Wimp Out",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon automatically switches out when its HP drops below half."
   },
   {
     "id": 194,
     "name": "Emergency Exit",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon automatically switches out when its HP drops below half."
   },
   {
     "id": 195,
     "name": "Water Compaction",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Raises this Pok\u00e9mon's Defense by two stages when it's hit by a Water move."
   },
   {
     "id": 196,
     "name": "Merciless",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's moves critical hit against poisoned targets."
   },
   {
     "id": 197,
     "name": "Shields Down",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Transforms this Minior between Core Form and Meteor Form.  Prevents major status ailments and drowsiness while in Meteor Form."
   },
   {
     "id": 198,
     "name": "Stakeout",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's moves have double power against Pok\u00e9mon that switched in this turn."
   },
   {
     "id": 199,
     "name": "Water Bubble",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns."
   },
   {
     "id": 200,
     "name": "Steelworker",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's Steel moves have 1.5\u00d7 power."
   },
   {
     "id": 201,
     "name": "Berserk",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Raises this Pok\u00e9mon's Special Attack by one stage every time its HP drops below half."
   },
   {
     "id": 202,
     "name": "Slush Rush",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "During Hail, this Pok\u00e9mon has double Speed."
   },
   {
     "id": 203,
     "name": "Long Reach",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's moves do not make contact."
   },
   {
     "id": 204,
     "name": "Liquid Voice",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Sound-based moves become Water-type."
   },
   {
     "id": 205,
     "name": "Triage",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's healing moves have their priority increased by 3."
   },
   {
     "id": 206,
     "name": "Galvanize",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's Normal moves are Electric and have their power increased to 1.2\u00d7."
   },
   {
     "id": 207,
     "name": "Surge Surfer",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Doubles this Pok\u00e9mon's Speed on Electric Terrain."
   },
   {
     "id": 208,
     "name": "Schooling",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Wishiwashi becomes Schooling Form when its HP is 25% or higher."
   },
   {
     "id": 209,
     "name": "Disguise",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Prevents the first instance of battle damage."
   },
   {
     "id": 210,
     "name": "Battle Bond",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Transforms this Pok\u00e9mon into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times."
   },
   {
     "id": 211,
     "name": "Power Construct",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%."
   },
   {
     "id": 212,
     "name": "Corrosion",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon can inflict poison on Poison and Steel Pok\u00e9mon."
   },
   {
     "id": 213,
     "name": "Comatose",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon always  acts as though it were Asleep."
   },
   {
     "id": 214,
     "name": "Queenly Majesty",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Opposing Pok\u00e9mon cannot use priority attacks."
   },
   {
     "id": 215,
     "name": "Innards Out",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon faints from an opponent's move, that opponent takes damage equal to the HP this Pok\u00e9mon had remaining."
   },
   {
     "id": 216,
     "name": "Dancer",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Whenever another Pok\u00e9mon uses a dance move, this Pok\u00e9mon will use the same move immediately afterwards."
   },
   {
     "id": 217,
     "name": "Battery",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Ally Pok\u00e9mon's moves have their power increased to 1.3\u00d7."
   },
   {
     "id": 218,
     "name": "Fluffy",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
   },
   {
     "id": 219,
     "name": "Dazzling",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Opposing Pok\u00e9mon cannot use priority attacks."
   },
   {
     "id": 220,
     "name": "Soul-Heart",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "This Pok\u00e9mon's Special Attack rises by one stage every time any Pok\u00e9mon faints."
   },
   {
     "id": 221,
     "name": "Tangling Hair",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon takes regular damage from a contact move, the attacking Pok\u00e9mon's Speed lowers by one stage."
   },
   {
     "id": 222,
     "name": "Receiver",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When an ally faints, this Pok\u00e9mon gains its Ability."
   },
   {
     "id": 223,
     "name": "Power of Alchemy",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When an ally faints, this Pok\u00e9mon gains its Ability."
   },
   {
     "id": 224,
     "name": "Beast Boost",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Raises this Pok\u00e9mon's highest stat by one stage when it faints another Pok\u00e9mon."
   },
   {
     "id": 225,
     "name": "RKS System",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Changes this Pok\u00e9mon's type to match its held Memory."
   },
   {
     "id": 226,
     "name": "Electric Surge",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon enters battle, it changes the terrain to Electric Terrain."
   },
   {
     "id": 227,
     "name": "Psychic Surge",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon enters battle, it changes the terrain to Psychic Terrain."
   },
   {
     "id": 228,
     "name": "Misty Surge",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon enters battle, it changes the terrain to Misty Terrain."
   },
   {
     "id": 229,
     "name": "Grassy Surge",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon enters battle, it changes the terrain to Grassy Terrain."
   },
   {
     "id": 230,
     "name": "Full Metal Body",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Other Pok\u00e9mon cannot lower this Pok\u00e9mon's stats."
   },
   {
     "id": 231,
     "name": "Shadow Shield",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "When this Pok\u00e9mon has full HP, regular damage from moves is halved."
   },
   {
     "id": 232,
     "name": "Prism Armor",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Reduces super-effective damage to 0.75\u00d7."
   },
   {
     "id": 233,
     "name": "Neuroforce",
-    "genNumber": 7, "genName": "Alola",
+    "genNumber": 7,
+    "genName": "Alola",
     "desc": "Increases super-effective damage dealt to 1.25\u00d7."
   },
   {
     "id": 234,
     "name": "Intrepid Sword",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts Attack in battle."
   },
   {
     "id": 235,
     "name": "Dauntless Shield",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts Defense in battle."
   },
   {
     "id": 236,
     "name": "Libero",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Libero changes the Pok\u00e9mon's type to that of its previously used attack."
   },
   {
     "id": 237,
     "name": "Ball Fetch",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "If the Pok\u00e9mon is not holding an item, it will fetch the Pok\u00e9 Ball from the first failed throw of the battle."
   },
   {
     "id": 238,
     "name": "Cotton Down",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "When Ignores moves and abilities that draw in moves."
   },
   {
     "id": 239,
     "name": "Propeller Tail",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Ignores moves and abilities that draw in moves."
   },
   {
     "id": 240,
     "name": "Mirror Armor",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Reflects any stat-lowering effects."
   },
   {
     "id": 241,
     "name": "Gulp Missile",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "If a Cramorant with Gulp Missile uses Surf or Dive, it catches prey and changes its form depending on its remaining HP."
   },
   {
     "id": 242,
     "name": "Stalwart",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Ignores moves and abilities that draw in moves."
   },
   {
     "id": 243,
     "name": "Steam Engine",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts the Speed stat drastically when the Pok\u00e9mon is hit by a Fire- or Water-type move."
   },
   {
     "id": 244,
     "name": "Punk Rock",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts sound-based moves and halves damage from the same moves."
   },
   {
     "id": 245,
     "name": "Sand Spit",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Creates a sandstorm when hit by an attack."
   },
   {
     "id": 246,
     "name": "Ice Scales",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Halves damage from Special moves."
   },
   {
     "id": 247,
     "name": "Ripen",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Doubles the effect of berries."
   },
   {
     "id": 248,
     "name": "Ice Face",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "The Pok\u00e9mon\u2019s ice head can take a physical attack as a substitute, but the attack also changes the Pok\u00e9mon\u2019s appearance. The ice will be restored when it snows."
   },
   {
     "id": 249,
     "name": "Power Spot",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Just being next to the Pok\u00e9mon powers up moves."
   },
   {
     "id": 250,
     "name": "Mimicry",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Changes type depending on the terrain."
   },
   {
     "id": 251,
     "name": "Screen Cleaner",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Nullifies effects of Light Screen, Reflect, and Aurora Veil."
   },
   {
     "id": 252,
     "name": "Steely Spirit",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Powers up ally Pok\u00e9mon's Steel-type moves."
   },
   {
     "id": 253,
     "name": "Perish Body",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "When hit by a move that makes direct contact, the Pok\u00e9mon and the attacker will faint after three turns unless they switch out of battle."
   },
   {
     "id": 254,
     "name": "Wandering Spirit",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Swaps abilities with opponents on contact."
   },
   {
     "id": 255,
     "name": "Gorilla Tactics",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts the Pok\u00e9mon's Attack stat but only allows the use of the first selected move."
   },
   {
     "id": 256,
     "name": "Neutralizing Gas",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Neutralizes abilities of all Pok\u00e9mon in battle."
   },
   {
     "id": 257,
     "name": "Pastel Veil",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Prevents the Pok\u00e9mon and its allies from being poisoned."
   },
   {
     "id": 258,
     "name": "Hunger Switch",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode"
   },
   {
     "id": 259,
     "name": "Quick Draw",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Enables the Pok\u00e9mon to move first occasionally."
   },
   {
     "id": 260,
     "name": "Unseen Fist",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Contact moves can strike through Protect/Detect."
   },
   {
     "id": 261,
     "name": "Curious Medicine",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Resets all stat changes upon entering battlefield."
   },
   {
     "id": 262,
     "name": "Transistor",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Powers up Electric-type moves."
   },
   {
     "id": 263,
     "name": "Dragon\u2019s Maw",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Powers up Dragon-type moves."
   },
   {
     "id": 264,
     "name": "Chilling Neigh",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 265,
     "name": "Grim Neigh",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Boosts Special Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 266,
     "name": "As One ATK",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Uses Calyrex Unnerve: Prevents opposing Pokémon from eating held Berries.\n          Extra: Uses Glastrier Chilling Neigh: Boosts Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 267,
     "name": "As One SP. ATK",
-    "genNumber": 8, "genName": "Galar/Hisui",
+    "genNumber": 8,
+    "genName": "Galar/Hisui",
     "desc": "Uses Calyrex Unnerve: Prevents opposing Pokémon from eating held Berries.\n          Extra: Uses Spectrier Grim Neigh: Boosts Special Attack after knocking out a Pok\u00e9mon."
   },
   {
     "id": 268,
     "name": "Lingering Aroma",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Contact changes the attacker's Ability to Lingering Aroma."
   },
   {
     "id": 269,
     "name": "Seed Sower",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Turns the ground into Grassy Terrain when the Pok\u00e9mon is hit by an attack."
   },
   {
     "id": 270,
     "name": "Thermal Exchange",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Raises Attack when hit by a Fire-type move. Cannot be burned."
   },
   {
     "id": 271,
     "name": "Anger Shell",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "When the Pok\u00e9mon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised."
   },
   {
     "id": 272,
     "name": "Purifying Salt",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Protects from status conditions and halves damage from Ghost-type moves."
   },
   {
     "id": 273,
     "name": "Well-Baked Body",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Immune to Fire-type moves, and Defense is sharply boosted."
   },
   {
     "id": 274,
     "name": "Wind Rider",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Gives immunity to wind moves, and causes the Pok\u00e9mon's Attack to increase by one stage when hit by one."
   },
   {
     "id": 275,
     "name": "Guard Dog",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Boosts Attack if intimidated, and prevents being forced to switch out."
   },
   {
     "id": 276,
     "name": "Rocky Payload",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Powers up Rock-type moves."
   },
   {
     "id": 277,
     "name": "Wind Power",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "When hit by a wind move, the power of the next Electric-type move it uses is doubled."
   },
   {
     "id": 278,
     "name": "Zero to Hero",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Transforms into its Hero Form when switching out."
   },
   {
     "id": 279,
     "name": "Commander",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Goes inside the mouth of an ally Dondozo if one is on the field."
   },
   {
     "id": 280,
     "name": "Electromorphosis",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "When hit by an attack, the power of the next Electric-type move it uses is doubled."
   },
   {
     "id": 281,
     "name": "Protosynthesis",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9, 
+    "genName": "Paldea",
     "desc": "Raises highest stat in harsh sunlight, or if holding Booster Energy."
   },
   {
     "id": 282,
     "name": "Quark Drive",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Raises highest stat on Electric Terrain, or if holding Booster Energy."
   },
   {
     "id": 283,
     "name": "Good as Gold",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Gives immunity to status moves."
   },
   {
     "id": 284,
     "name": "Vessel of Ruin",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Lowers Special Attack of all Pok\u00e9mon except itself."
   },
   {
     "id": 285,
     "name": "Sword of Ruin",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Lowers Defense of all Pok\u00e9mon except itself."
   },
   {
     "id": 286,
     "name": "Tablets of Ruin",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Lowers Attack of all Pok\u00e9mon except itself."
   },
   {
     "id": 287,
     "name": "Beads of Ruin",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Lowers Special Defense of all Pok\u00e9mon except itself."
   },
   {
     "id": 288,
     "name": "Orichalcum Pulse",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Turns the sunlight harsh when entering battle, and boosts Attack while active."
   },
   {
     "id": 289,
     "name": "Hadron Engine",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active."
   },
   {
     "id": 290,
     "name": "Opportunist",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Copies stat boosts by the opponent."
   },
   {
     "id": 291,
     "name": "Cud Chew",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Causes the Pok\u00e9mon to reuse an already consumed Berry at the end of the next turn."
   },
   {
     "id": 292,
     "name": "Sharpness",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Powers up slicing moves."
   },
   {
     "id": 293,
     "name": "Supreme Overlord",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Attack and Special Attack are boosted for each party Pok\u00e9mon that has been defeated."
   },
   {
     "id": 294,
     "name": "Costar",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Copies ally's stat changes on entering battle."
   },
   {
     "id": 295,
     "name": "Toxic Debris",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Scatters poison spikes at the feet of the opposing team when the Pok\u00e9mon takes damage from physical moves."
   },
   {
     "id": 296,
     "name": "Armor Tail",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Prevents the opponent from using any moves that have priority, such as Quick Attack."
   },
   {
     "id": 297,
     "name": "Earth Eater",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Restores HP when hit by a Ground-type move."
   },
   {
     "id": 298,
     "name": "Mycelium Might",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Status moves go last, but are not affected by the opponent's ability."
   },
   {
     "id": 299,
     "name": "Mind\u2019s Eye",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "The Pok\u00e9mon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."
   },
   {
     "id": 300,
     "name": "Supersweet Syrup",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Once per battle, when a Pok\u00e9mon with Supersweet Syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage."
   },
   {
     "id": 301,
     "name": "Hospitality",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "When a Pok\u00e9mon with Hospitality enters a battle, it restores HP for an ally by 25%."
   },
   {
     "id": 302,
     "name": "Toxic Chain",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "May cause bad poisoning when the Pok\u00e9mon hits an opponent with a move."
   },
   {
     "id": 303,
     "name": "Embody Aspect",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Embody Aspect boosts a particular stat, depending on the form of a Terastallized Ogerpon"
   },
   {
     "id": 304,
     "name": "Tera Shift",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "When Terapagos enters the battle, it turns into its Terastal Form until the end of the battle."
   },
   {
     "id": 305,
     "name": "Tera Shell",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "All damage-dealing moves that hit the Pok\u00e9mon when its HP is full will not be very effective."
   },
   {
     "id": 306,
     "name": "Teraform Zero",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "As soon as Terapagos assumes its Stellar Form, it will immediately neutralize weather and terrain effects."
   },
   {
     "id": 307,
     "name": "Poison Puppeteer",
-    "genNumber": 9, "genName": "Paldea",
+    "genNumber": 9,
+    "genName": "Paldea",
     "desc": "Pok\u00e9mon poisoned by Pecharunt's moves will also become confused."
   }
 ]

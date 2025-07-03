@@ -1,3 +1,4 @@
+using RandomAbilityGenerator.Models;
 using Spectre.Console;
 using RandomAbilityGenerator.Models.Preset;
 
@@ -31,7 +32,7 @@ public class Presets
             Table table = new Table();
             table.AddColumn("[u]Banned Abilities[/]");
 
-            foreach (var banned in preset.Abilities.Where(b => b.Ability != null))
+            foreach (BannedAbilities banned in preset.Abilities.Where(b => b.Ability != null))
             {
                 table.AddRow(banned.Ability!.Name);
             }
