@@ -65,10 +65,11 @@ public static class Prompt
     /// Asks the user a yes/no question and returns the answer as a boolean.
     /// </summary>
     /// <param name="question">The yes/no question to ask.</param>
+    /// <param name="defaultAnswer">The default answer.</param>
     /// <returns>True if the user answers yes; otherwise, false.</returns>
-    public static bool AskYesNo(string question)
+    public static bool AskYesNo(string question, bool defaultAnswer = true)
     {
-        return AnsiConsole.Confirm(question);
+        return AnsiConsole.Confirm(question, defaultAnswer);
     }
 
     /// <summary>

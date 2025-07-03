@@ -74,7 +74,7 @@ static class Program
 
             Prompt.ShowAbilities(chosenAbilities);
 
-            if (Prompt.AskYesNo("Want to exit the generator?"))
+            if (Prompt.AskYesNo("Want to exit the generator?", false))
                 break;
         }
 
